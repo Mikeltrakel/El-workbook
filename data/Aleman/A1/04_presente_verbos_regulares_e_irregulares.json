@@ -1,0 +1,137 @@
+{
+  "title": "Presente: verbos regulares e irregulares",
+  "description": "Conjugación del Präsens con pronombres personales y verbos frecuentes.",
+  "questions": [
+    {
+      "id": "de_a1_pre_001",
+      "type": "text",
+      "prompt": "Completa: Ich ___ Deutsch. (lernen)",
+      "answer": "lerne",
+      "explanation": "Con «ich», los verbos regulares terminan en «-e».",
+      "accepted_answers": [
+        "lerne",
+        "Ich lerne Deutsch.",
+        "Ich lerne Deutsch"
+      ]
+    },
+    {
+      "id": "de_a1_pre_002",
+      "type": "text",
+      "prompt": "Completa: Du ___ in Berlin. (wohnen)",
+      "answer": "wohnst",
+      "explanation": "Con «du», normalmente se añade «-st».",
+      "accepted_answers": [
+        "wohnst",
+        "Du wohnst in Berlin.",
+        "Du wohnst in Berlin"
+      ]
+    },
+    {
+      "id": "de_a1_pre_003",
+      "type": "text",
+      "prompt": "Completa: Er ___ heute. (arbeiten)",
+      "answer": "arbeitet",
+      "explanation": "Los verbos cuya raíz termina en -t suelen insertar una «e»: arbeitet.",
+      "accepted_answers": [
+        "arbeitet"
+      ]
+    },
+    {
+      "id": "de_a1_pre_004",
+      "type": "text",
+      "prompt": "Completa: Wir ___ Kaffee. (trinken)",
+      "answer": "trinken",
+      "explanation": "Con «wir», el verbo conserva el infinitivo.",
+      "accepted_answers": [
+        "trinken",
+        "Wir trinken Kaffee.",
+        "Wir trinken Kaffee"
+      ]
+    },
+    {
+      "id": "de_a1_pre_005",
+      "type": "text",
+      "prompt": "Completa: Ihr ___ sehr gut Deutsch. (sprechen)",
+      "answer": "sprecht",
+      "explanation": "Con «ihr», la terminación habitual es «-t».",
+      "accepted_answers": [
+        "sprecht"
+      ]
+    },
+    {
+      "id": "de_a1_pre_006",
+      "type": "text",
+      "prompt": "Completa: Sie ___ aus Österreich. (kommen)",
+      "answer": "kommen",
+      "explanation": "Con «sie/Sie» plural o formal se usa la forma del infinitivo.",
+      "accepted_answers": [
+        "kommen"
+      ]
+    },
+    {
+      "id": "de_a1_pre_007",
+      "type": "text",
+      "prompt": "Completa: Du ___ ein Buch. (lesen)",
+      "answer": "liest",
+      "explanation": "«Lesen» cambia e → ie con «du» y «er/sie/es»: du liest.",
+      "accepted_answers": [
+        "liest"
+      ]
+    },
+    {
+      "id": "de_a1_pre_008",
+      "type": "text",
+      "prompt": "Completa: Er ___ nach Hause. (fahren)",
+      "answer": "fährt",
+      "explanation": "«Fahren» cambia a → ä con «du» y «er/sie/es».",
+      "accepted_answers": [
+        "fährt",
+        "faehrt"
+      ]
+    },
+    {
+      "id": "de_a1_pre_009",
+      "type": "text",
+      "prompt": "Completa: Du ___ gern Pizza. (essen)",
+      "answer": "isst",
+      "explanation": "La forma irregular de «essen» con «du» es «isst».",
+      "accepted_answers": [
+        "isst"
+      ]
+    },
+    {
+      "id": "de_a1_pre_010",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la forma correcta: Maria ___ Englisch.",
+      "answer": "spricht",
+      "explanation": "«Sprechen» cambia e → i en tercera persona singular.",
+      "options": [
+        "spreche",
+        "sprichst",
+        "spricht"
+      ]
+    },
+    {
+      "id": "de_a1_pre_011",
+      "type": "text",
+      "prompt": "Completa: Ich ___ keine Zeit. (haben)",
+      "answer": "habe",
+      "explanation": "La primera persona singular de «haben» es «habe».",
+      "accepted_answers": [
+        "habe"
+      ]
+    },
+    {
+      "id": "de_a1_pre_012",
+      "type": "text",
+      "prompt": "Completa: Wir ___ müde. (sein)",
+      "answer": "sind",
+      "explanation": "La forma de «sein» con «wir» es «sind».",
+      "accepted_answers": [
+        "sind",
+        "Wir sind müde.",
+        "Wir sind müde"
+      ]
+    }
+  ]
+}

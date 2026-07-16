@@ -1,0 +1,136 @@
+{
+  "title": "Salud, cuerpo y citas médicas",
+  "description": "Estructuras básicas para expresar síntomas, necesidades y concertar una consulta.",
+  "questions": [
+    {
+      "id": "de_a1_ges_001",
+      "type": "text",
+      "prompt": "Completa: Ich habe Kopf___.",
+      "answer": "schmerzen",
+      "explanation": "«Kopfschmerzen» significa dolor de cabeza.",
+      "accepted_answers": [
+        "schmerzen",
+        "Kopfschmerzen"
+      ]
+    },
+    {
+      "id": "de_a1_ges_002",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se dice «Me duele el estómago»?",
+      "answer": "Ich habe Bauchschmerzen.",
+      "explanation": "«Bauchschmerzen» significa dolor de estómago.",
+      "options": [
+        "Ich bin Bauch.",
+        "Ich habe Bauchschmerzen.",
+        "Ich mache Bauch."
+      ]
+    },
+    {
+      "id": "de_a1_ges_003",
+      "type": "text",
+      "prompt": "Completa: Mir ist ___. (mal)",
+      "answer": "schlecht",
+      "explanation": "«Mir ist schlecht» significa sentirse mal o tener náuseas.",
+      "accepted_answers": [
+        "schlecht"
+      ]
+    },
+    {
+      "id": "de_a1_ges_004",
+      "type": "text",
+      "prompt": "Completa: Ich brauche einen ___. (médico)",
+      "answer": "Arzt",
+      "explanation": "«Arzt» significa médico.",
+      "accepted_answers": [
+        "Arzt"
+      ]
+    },
+    {
+      "id": "de_a1_ges_005",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se pide una cita?",
+      "answer": "Ich möchte einen Termin.",
+      "explanation": "«Ich möchte einen Termin» es una petición básica para concertar una cita.",
+      "options": [
+        "Ich bin einen Termin.",
+        "Ich möchte einen Termin.",
+        "Ich habe terminieren."
+      ]
+    },
+    {
+      "id": "de_a1_ges_006",
+      "type": "text",
+      "prompt": "Completa: Haben Sie heute einen Termin ___?",
+      "answer": "frei",
+      "explanation": "«Einen Termin frei haben» significa tener una cita disponible.",
+      "accepted_answers": [
+        "frei"
+      ]
+    },
+    {
+      "id": "de_a1_ges_007",
+      "type": "text",
+      "prompt": "Completa: Ich bin seit zwei Tagen ___.",
+      "answer": "krank",
+      "explanation": "«Krank» significa enfermo.",
+      "accepted_answers": [
+        "krank"
+      ]
+    },
+    {
+      "id": "de_a1_ges_008",
+      "type": "multiple_choice",
+      "prompt": "¿Qué pregunta hace normalmente el médico?",
+      "answer": "Was fehlt Ihnen?",
+      "explanation": "«Was fehlt Ihnen?» significa aproximadamente «¿Qué le pasa?».",
+      "options": [
+        "Was heißen Ihnen?",
+        "Was fehlt Ihnen?",
+        "Wo kaufen Ihnen?"
+      ]
+    },
+    {
+      "id": "de_a1_ges_009",
+      "type": "text",
+      "prompt": "Completa: Nehmen Sie diese Tabletten zweimal ___ Tag.",
+      "answer": "am",
+      "explanation": "La expresión es «zweimal am Tag».",
+      "accepted_answers": [
+        "am"
+      ]
+    },
+    {
+      "id": "de_a1_ges_010",
+      "type": "text",
+      "prompt": "Completa: Ich kann heute nicht ___. (trabajar)",
+      "answer": "arbeiten",
+      "explanation": "Tras «kann» se utiliza el infinitivo al final.",
+      "accepted_answers": [
+        "arbeiten"
+      ]
+    },
+    {
+      "id": "de_a1_ges_011",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la recomendación correcta.",
+      "answer": "Sie müssen viel Wasser trinken.",
+      "explanation": "Con «müssen» se expresa una necesidad o recomendación firme.",
+      "options": [
+        "Sie müssen viel Wasser trinken.",
+        "Sie viel Wasser müssen trinkt.",
+        "Sie sind Wasser trinken."
+      ]
+    },
+    {
+      "id": "de_a1_ges_012",
+      "type": "text",
+      "prompt": "Escribe: «Necesito una farmacia».",
+      "answer": "Ich brauche eine Apotheke.",
+      "explanation": "«Brauchen» se usa para expresar necesidad.",
+      "accepted_answers": [
+        "Ich brauche eine Apotheke",
+        "Ich brauche eine Apotheke."
+      ]
+    }
+  ]
+}

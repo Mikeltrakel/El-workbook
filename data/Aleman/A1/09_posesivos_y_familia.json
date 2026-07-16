@@ -1,0 +1,133 @@
+{
+  "title": "Posesivos y familia",
+  "description": "Uso básico de mein, dein, sein, ihr y vocabulario familiar.",
+  "questions": [
+    {
+      "id": "de_a1_pos_001",
+      "type": "text",
+      "prompt": "Completa: Das ist ___ Vater. (mi)",
+      "answer": "mein",
+      "explanation": "«Vater» es masculino: mein Vater.",
+      "accepted_answers": [
+        "mein"
+      ]
+    },
+    {
+      "id": "de_a1_pos_002",
+      "type": "text",
+      "prompt": "Completa: Das ist ___ Mutter. (mi)",
+      "answer": "meine",
+      "explanation": "«Mutter» es femenino: meine Mutter.",
+      "accepted_answers": [
+        "meine"
+      ]
+    },
+    {
+      "id": "de_a1_pos_003",
+      "type": "text",
+      "prompt": "Completa: Ist das ___ Bruder? (tu, informal)",
+      "answer": "dein",
+      "explanation": "El posesivo de «du» es «dein».",
+      "accepted_answers": [
+        "dein"
+      ]
+    },
+    {
+      "id": "de_a1_pos_004",
+      "type": "text",
+      "prompt": "Completa: Wie heißt ___ Schwester? (tu, informal)",
+      "answer": "deine",
+      "explanation": "«Schwester» es femenino: deine Schwester.",
+      "accepted_answers": [
+        "deine"
+      ]
+    },
+    {
+      "id": "de_a1_pos_005",
+      "type": "multiple_choice",
+      "prompt": "Thomas hat eine Tochter. ___ Tochter heißt Mia.",
+      "answer": "Seine",
+      "explanation": "Para un poseedor masculino se usa «sein-»; «Tochter» es femenino.",
+      "options": [
+        "Seine",
+        "Ihre",
+        "Deine"
+      ]
+    },
+    {
+      "id": "de_a1_pos_006",
+      "type": "multiple_choice",
+      "prompt": "Anna hat einen Sohn. ___ Sohn ist fünf Jahre alt.",
+      "answer": "Ihr",
+      "explanation": "Para una poseedora femenina se usa «ihr-»; «Sohn» es masculino.",
+      "options": [
+        "Sein",
+        "Ihr",
+        "Ihre"
+      ]
+    },
+    {
+      "id": "de_a1_pos_007",
+      "type": "text",
+      "prompt": "Traduce: «mis padres».",
+      "answer": "meine Eltern",
+      "explanation": "«Eltern» es plural, por lo que se usa «meine».",
+      "accepted_answers": [
+        "meine Eltern"
+      ]
+    },
+    {
+      "id": "de_a1_pos_008",
+      "type": "text",
+      "prompt": "Completa: Wir besuchen ___ Großeltern. (nuestros)",
+      "answer": "unsere",
+      "explanation": "«Großeltern» es plural: unsere Großeltern.",
+      "accepted_answers": [
+        "unsere"
+      ]
+    },
+    {
+      "id": "de_a1_pos_009",
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra significa «hermanos» en sentido colectivo?",
+      "answer": "Geschwister",
+      "explanation": "«Geschwister» incluye hermanos y hermanas.",
+      "options": [
+        "Eltern",
+        "Geschwister",
+        "Kinder"
+      ]
+    },
+    {
+      "id": "de_a1_pos_010",
+      "type": "text",
+      "prompt": "Completa: Habt ihr Kinder? – Ja, ___ Kinder sind sechs und acht.",
+      "answer": "unsere",
+      "explanation": "Cuando hablan «wir», el posesivo es «unser-».",
+      "accepted_answers": [
+        "unsere"
+      ]
+    },
+    {
+      "id": "de_a1_pos_011",
+      "type": "text",
+      "prompt": "Completa: Frau Klein, ist das ___ Pass? (su, formal)",
+      "answer": "Ihr",
+      "explanation": "El posesivo formal «Ihr» se escribe con mayúscula.",
+      "accepted_answers": [
+        "Ihr"
+      ]
+    },
+    {
+      "id": "de_a1_pos_012",
+      "type": "text",
+      "prompt": "Escribe: «Esta es mi familia».",
+      "answer": "Das ist meine Familie.",
+      "explanation": "«Familie» es femenino, por eso se usa «meine».",
+      "accepted_answers": [
+        "Das ist meine Familie",
+        "Das ist meine Familie."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Comida, compras y precios",
+  "description": "Vocabulario y estructuras para comprar alimentos, pedir cantidades y preguntar precios.",
+  "questions": [
+    {
+      "id": "de_a1_kau_001",
+      "type": "text",
+      "prompt": "Completa: Ich hätte gern ___ Kilo Äpfel.",
+      "answer": "ein",
+      "explanation": "«Ein Kilo» expresa una cantidad.",
+      "accepted_answers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "de_a1_kau_002",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se pregunta el precio?",
+      "answer": "Was kostet das?",
+      "explanation": "«Was kostet das?» significa «¿Cuánto cuesta eso?».",
+      "options": [
+        "Wo kauft das?",
+        "Was kostet das?",
+        "Wie alt kostet das?"
+      ]
+    },
+    {
+      "id": "de_a1_kau_003",
+      "type": "text",
+      "prompt": "Completa: Das kostet zwei ___.",
+      "answer": "Euro",
+      "explanation": "Tras un número, «Euro» suele permanecer sin terminación plural.",
+      "accepted_answers": [
+        "Euro"
+      ]
+    },
+    {
+      "id": "de_a1_kau_004",
+      "type": "text",
+      "prompt": "Completa: Ich nehme ___ Brot.",
+      "answer": "das",
+      "explanation": "«Brot» es neutro: das Brot.",
+      "accepted_answers": [
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_kau_005",
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es una petición cortés?",
+      "answer": "Ich hätte gern einen Kaffee.",
+      "explanation": "«Ich hätte gern…» es una fórmula cortés muy frecuente.",
+      "options": [
+        "Ich bin einen Kaffee.",
+        "Ich hätte gern einen Kaffee.",
+        "Ich gehe einen Kaffee."
+      ]
+    },
+    {
+      "id": "de_a1_kau_006",
+      "type": "text",
+      "prompt": "Completa: Haben Sie ___ Milch?",
+      "answer": "noch",
+      "explanation": "«Noch» puede usarse para preguntar si queda o hay más de algo.",
+      "accepted_answers": [
+        "noch"
+      ]
+    },
+    {
+      "id": "de_a1_kau_007",
+      "type": "text",
+      "prompt": "Completa: Ich brauche eine ___ Wasser.",
+      "answer": "Flasche",
+      "explanation": "«Eine Flasche Wasser» significa una botella de agua.",
+      "accepted_answers": [
+        "Flasche"
+      ]
+    },
+    {
+      "id": "de_a1_kau_008",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la unidad adecuada: ein ___ Käse",
+      "answer": "Stück",
+      "explanation": "«Ein Stück Käse» es un trozo de queso.",
+      "options": [
+        "Liter",
+        "Stück",
+        "Flasche"
+      ]
+    },
+    {
+      "id": "de_a1_kau_009",
+      "type": "text",
+      "prompt": "Completa: Möchten Sie sonst ___?",
+      "answer": "noch etwas",
+      "explanation": "La expresión comercial fija es «Sonst noch etwas?».",
+      "accepted_answers": [
+        "noch etwas",
+        "etwas"
+      ]
+    },
+    {
+      "id": "de_a1_kau_010",
+      "type": "multiple_choice",
+      "prompt": "¿Qué respuesta indica que no quieres nada más?",
+      "answer": "Nein, danke. Das ist alles.",
+      "explanation": "Es una respuesta cortés para finalizar la compra.",
+      "options": [
+        "Ich bin alles.",
+        "Nein, danke. Das ist alles.",
+        "Alles kostet nein."
+      ]
+    },
+    {
+      "id": "de_a1_kau_011",
+      "type": "text",
+      "prompt": "Completa: Die Tomaten sind heute im ___.",
+      "answer": "Angebot",
+      "explanation": "«Im Angebot» significa que están de oferta.",
+      "accepted_answers": [
+        "Angebot"
+      ]
+    },
+    {
+      "id": "de_a1_kau_012",
+      "type": "text",
+      "prompt": "Escribe una petición: «Quisiera dos panecillos».",
+      "answer": "Ich hätte gern zwei Brötchen.",
+      "explanation": "«Ich hätte gern…» seguido de cantidad y producto forma una petición cortés.",
+      "accepted_answers": [
+        "Ich hätte gern zwei Brötchen",
+        "Ich hätte gern zwei Brötchen."
+      ]
+    }
+  ]
+}

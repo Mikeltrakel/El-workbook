@@ -1,0 +1,138 @@
+{
+  "title": "Hora, fechas, días y citas",
+  "description": "Práctica para expresar horas, días, meses, fechas y concertar citas.",
+  "questions": [
+    {
+      "id": "de_a1_zei_001",
+      "type": "text",
+      "prompt": "Completa: Heute ist ___. (lunes)",
+      "answer": "Montag",
+      "explanation": "«Lunes» se dice «Montag».",
+      "accepted_answers": [
+        "Montag"
+      ]
+    },
+    {
+      "id": "de_a1_zei_002",
+      "type": "text",
+      "prompt": "Completa: Morgen ist ___. (martes)",
+      "answer": "Dienstag",
+      "explanation": "«Martes» se dice «Dienstag».",
+      "accepted_answers": [
+        "Dienstag"
+      ]
+    },
+    {
+      "id": "de_a1_zei_003",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se pregunta la hora?",
+      "answer": "Wie spät ist es?",
+      "explanation": "La expresión habitual es «Wie spät ist es?».",
+      "options": [
+        "Wie Uhr bist du?",
+        "Wie spät ist es?",
+        "Wann alt ist es?"
+      ]
+    },
+    {
+      "id": "de_a1_zei_004",
+      "type": "text",
+      "prompt": "Escribe: «Son las ocho».",
+      "answer": "Es ist acht Uhr.",
+      "explanation": "La hora en punto se expresa con «Es ist … Uhr».",
+      "accepted_answers": [
+        "Es ist acht Uhr",
+        "Es ist acht Uhr."
+      ]
+    },
+    {
+      "id": "de_a1_zei_005",
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa «halb neun»?",
+      "answer": "Las ocho y media.",
+      "explanation": "En alemán, «halb neun» es media hora antes de las nueve.",
+      "options": [
+        "Las nueve y media.",
+        "Las ocho y media.",
+        "Las nueve menos cuarto."
+      ]
+    },
+    {
+      "id": "de_a1_zei_006",
+      "type": "text",
+      "prompt": "Completa: Der Kurs beginnt ___ neun Uhr.",
+      "answer": "um",
+      "explanation": "Se usa «um» para indicar una hora concreta.",
+      "accepted_answers": [
+        "um"
+      ]
+    },
+    {
+      "id": "de_a1_zei_007",
+      "type": "text",
+      "prompt": "Completa: ___ Montag habe ich frei.",
+      "answer": "Am",
+      "explanation": "Se usa «am» con los días de la semana.",
+      "accepted_answers": [
+        "Am",
+        "am"
+      ]
+    },
+    {
+      "id": "de_a1_zei_008",
+      "type": "text",
+      "prompt": "Completa: ___ Juli fahre ich nach Deutschland.",
+      "answer": "Im",
+      "explanation": "Se usa «im» con meses y estaciones.",
+      "accepted_answers": [
+        "Im",
+        "im"
+      ]
+    },
+    {
+      "id": "de_a1_zei_009",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la fecha escrita correctamente.",
+      "answer": "Heute ist der dritte Mai.",
+      "explanation": "Las fechas ordinales suelen llevar artículo y terminación ordinal.",
+      "options": [
+        "Heute ist drei Mai.",
+        "Heute ist der dritte Mai.",
+        "Heute ist am drei Mai."
+      ]
+    },
+    {
+      "id": "de_a1_zei_010",
+      "type": "text",
+      "prompt": "Completa: Hast du ___ Freitag Zeit?",
+      "answer": "am",
+      "explanation": "Para un día se usa «am Freitag».",
+      "accepted_answers": [
+        "am"
+      ]
+    },
+    {
+      "id": "de_a1_zei_011",
+      "type": "text",
+      "prompt": "Responde: Wann ist der Termin? (a las 10)",
+      "answer": "Um zehn Uhr.",
+      "explanation": "Para indicar la hora de una cita se utiliza «um».",
+      "accepted_answers": [
+        "Um zehn Uhr",
+        "Um zehn Uhr."
+      ]
+    },
+    {
+      "id": "de_a1_zei_012",
+      "type": "multiple_choice",
+      "prompt": "¿Qué expresión propone una cita?",
+      "answer": "Hast du am Samstag Zeit?",
+      "explanation": "La pregunta consulta disponibilidad en un día concreto.",
+      "options": [
+        "Wie heißt Samstag?",
+        "Hast du am Samstag Zeit?",
+        "Wo kostet Samstag?"
+      ]
+    }
+  ]
+}

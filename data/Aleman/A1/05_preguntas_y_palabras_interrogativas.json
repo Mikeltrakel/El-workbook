@@ -1,0 +1,133 @@
+{
+  "title": "Preguntas y palabras interrogativas",
+  "description": "Formación de preguntas de sí/no y preguntas con W-Fragen.",
+  "questions": [
+    {
+      "id": "de_a1_fra_001",
+      "type": "text",
+      "prompt": "Completa: ___ heißt du?",
+      "answer": "Wie",
+      "explanation": "«Wie» se utiliza para preguntar el nombre o la manera.",
+      "accepted_answers": [
+        "Wie"
+      ]
+    },
+    {
+      "id": "de_a1_fra_002",
+      "type": "text",
+      "prompt": "Completa: ___ kommst du? – Aus Spanien.",
+      "answer": "Woher",
+      "explanation": "«Woher» pregunta por la procedencia.",
+      "accepted_answers": [
+        "Woher"
+      ]
+    },
+    {
+      "id": "de_a1_fra_003",
+      "type": "text",
+      "prompt": "Completa: ___ wohnst du? – In Valencia.",
+      "answer": "Wo",
+      "explanation": "«Wo» pregunta por una ubicación fija.",
+      "accepted_answers": [
+        "Wo"
+      ]
+    },
+    {
+      "id": "de_a1_fra_004",
+      "type": "text",
+      "prompt": "Completa: ___ fährst du? – Nach Berlin.",
+      "answer": "Wohin",
+      "explanation": "«Wohin» pregunta por el destino de un movimiento.",
+      "accepted_answers": [
+        "Wohin"
+      ]
+    },
+    {
+      "id": "de_a1_fra_005",
+      "type": "text",
+      "prompt": "Completa: ___ machst du heute? – Ich arbeite.",
+      "answer": "Was",
+      "explanation": "«Was» significa «qué».",
+      "accepted_answers": [
+        "Was"
+      ]
+    },
+    {
+      "id": "de_a1_fra_006",
+      "type": "text",
+      "prompt": "Completa: ___ beginnt der Kurs? – Um neun Uhr.",
+      "answer": "Wann",
+      "explanation": "«Wann» pregunta por el momento.",
+      "accepted_answers": [
+        "Wann"
+      ]
+    },
+    {
+      "id": "de_a1_fra_007",
+      "type": "text",
+      "prompt": "Completa: ___ kostet das? – Zehn Euro.",
+      "answer": "Wie viel",
+      "explanation": "«Wie viel» se utiliza para preguntar cantidades o precios.",
+      "accepted_answers": [
+        "Wie viel",
+        "Wieviel"
+      ]
+    },
+    {
+      "id": "de_a1_fra_008",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la pregunta correcta de sí/no.",
+      "answer": "Kommst du aus Spanien?",
+      "explanation": "En una pregunta de sí/no, el verbo conjugado ocupa la primera posición.",
+      "options": [
+        "Du kommst aus Spanien?",
+        "Kommst du aus Spanien?",
+        "Aus Spanien du kommst?"
+      ]
+    },
+    {
+      "id": "de_a1_fra_009",
+      "type": "text",
+      "prompt": "Convierte en pregunta: Du lernst Deutsch.",
+      "answer": "Lernst du Deutsch?",
+      "explanation": "Las preguntas sin palabra interrogativa empiezan con el verbo.",
+      "accepted_answers": [
+        "Lernst du Deutsch",
+        "Lernst du Deutsch?"
+      ]
+    },
+    {
+      "id": "de_a1_fra_010",
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra pregunta por una persona?",
+      "answer": "Wer",
+      "explanation": "«Wer» significa «quién».",
+      "options": [
+        "Wer",
+        "Wie",
+        "Wo"
+      ]
+    },
+    {
+      "id": "de_a1_fra_011",
+      "type": "text",
+      "prompt": "Completa: ___ lernst du Deutsch? – Weil ich in Deutschland arbeiten möchte.",
+      "answer": "Warum",
+      "explanation": "«Warum» significa «por qué».",
+      "accepted_answers": [
+        "Warum"
+      ]
+    },
+    {
+      "id": "de_a1_fra_012",
+      "type": "text",
+      "prompt": "Ordena: du / heute / arbeitest / ?",
+      "answer": "Arbeitest du heute?",
+      "explanation": "En la pregunta de sí/no, primero va el verbo, después el sujeto.",
+      "accepted_answers": [
+        "Arbeitest du heute",
+        "Arbeitest du heute?"
+      ]
+    }
+  ]
+}

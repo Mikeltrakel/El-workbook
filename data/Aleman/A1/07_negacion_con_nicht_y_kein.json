@@ -1,0 +1,134 @@
+{
+  "title": "Negación con nicht y kein",
+  "description": "Diferencia entre «nicht» y las formas de «kein» en contextos básicos.",
+  "questions": [
+    {
+      "id": "de_a1_neg_001",
+      "type": "text",
+      "prompt": "Completa: Ich habe ___ Auto.",
+      "answer": "kein",
+      "explanation": "Se usa «kein» para negar un sustantivo neutro sin artículo definido.",
+      "accepted_answers": [
+        "kein"
+      ]
+    },
+    {
+      "id": "de_a1_neg_002",
+      "type": "text",
+      "prompt": "Completa: Sie hat ___ Schwester.",
+      "answer": "keine",
+      "explanation": "«Schwester» es femenino, por lo que se usa «keine».",
+      "accepted_answers": [
+        "keine"
+      ]
+    },
+    {
+      "id": "de_a1_neg_003",
+      "type": "text",
+      "prompt": "Completa: Wir haben ___ Kinder.",
+      "answer": "keine",
+      "explanation": "En plural se utiliza «keine».",
+      "accepted_answers": [
+        "keine"
+      ]
+    },
+    {
+      "id": "de_a1_neg_004",
+      "type": "text",
+      "prompt": "Completa: Ich komme heute ___.",
+      "answer": "nicht",
+      "explanation": "«Nicht» niega el verbo o la oración completa.",
+      "accepted_answers": [
+        "nicht"
+      ]
+    },
+    {
+      "id": "de_a1_neg_005",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la frase correcta.",
+      "answer": "Das ist kein Kaffee.",
+      "explanation": "«Kein» niega el sustantivo «Kaffee».",
+      "options": [
+        "Das ist nicht Kaffee.",
+        "Das ist kein Kaffee.",
+        "Das kein ist Kaffee."
+      ]
+    },
+    {
+      "id": "de_a1_neg_006",
+      "type": "text",
+      "prompt": "Niega: Ich spreche Deutsch.",
+      "answer": "Ich spreche nicht Deutsch.",
+      "explanation": "«Nicht» puede negar el idioma que se habla en este contexto.",
+      "accepted_answers": [
+        "Ich spreche nicht Deutsch",
+        "Ich spreche nicht Deutsch."
+      ]
+    },
+    {
+      "id": "de_a1_neg_007",
+      "type": "text",
+      "prompt": "Niega: Das ist eine Banane.",
+      "answer": "Das ist keine Banane.",
+      "explanation": "El artículo indefinido femenino «eine» se convierte en «keine».",
+      "accepted_answers": [
+        "Das ist keine Banane",
+        "Das ist keine Banane."
+      ]
+    },
+    {
+      "id": "de_a1_neg_008",
+      "type": "multiple_choice",
+      "prompt": "Completa: Er arbeitet heute ___.",
+      "answer": "nicht",
+      "explanation": "No se está negando un sustantivo, sino la acción.",
+      "options": [
+        "kein",
+        "keine",
+        "nicht"
+      ]
+    },
+    {
+      "id": "de_a1_neg_009",
+      "type": "text",
+      "prompt": "Completa: Ich trinke ___ Bier.",
+      "answer": "kein",
+      "explanation": "«Bier» es neutro y aquí se niega el sustantivo.",
+      "accepted_answers": [
+        "kein"
+      ]
+    },
+    {
+      "id": "de_a1_neg_010",
+      "type": "text",
+      "prompt": "Completa: Das Wetter ist ___ gut.",
+      "answer": "nicht",
+      "explanation": "«Nicht» niega el adjetivo «gut».",
+      "accepted_answers": [
+        "nicht"
+      ]
+    },
+    {
+      "id": "de_a1_neg_011",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "answer": "Ich habe keine Zeit.",
+      "explanation": "«Zeit» es femenino: keine Zeit.",
+      "options": [
+        "Ich habe nicht Zeit.",
+        "Ich habe kein Zeit.",
+        "Ich habe keine Zeit."
+      ]
+    },
+    {
+      "id": "de_a1_neg_012",
+      "type": "text",
+      "prompt": "Completa: Das sind ___ Äpfel.",
+      "answer": "keine",
+      "explanation": "El plural de «kein» en nominativo es «keine».",
+      "accepted_answers": [
+        "keine"
+      ]
+    }
+  ]
+}

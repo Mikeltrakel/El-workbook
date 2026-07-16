@@ -1,0 +1,132 @@
+{
+  "title": "Verbos separables y rutina diaria",
+  "description": "Práctica de prefijos separables y vocabulario de actividades cotidianas.",
+  "questions": [
+    {
+      "id": "de_a1_sep_001",
+      "type": "text",
+      "prompt": "Completa: Ich stehe um sieben Uhr ___. (aufstehen)",
+      "answer": "auf",
+      "explanation": "El prefijo separable «auf» se coloca al final de la oración.",
+      "accepted_answers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "de_a1_sep_002",
+      "type": "text",
+      "prompt": "Completa: Er ruft seine Mutter ___. (anrufen)",
+      "answer": "an",
+      "explanation": "En presente, «anrufen» se divide: er ruft … an.",
+      "accepted_answers": [
+        "an"
+      ]
+    },
+    {
+      "id": "de_a1_sep_003",
+      "type": "text",
+      "prompt": "Completa: Wir kaufen am Samstag ___. (einkaufen)",
+      "answer": "ein",
+      "explanation": "El prefijo «ein» se separa y va al final.",
+      "accepted_answers": [
+        "ein"
+      ]
+    },
+    {
+      "id": "de_a1_sep_004",
+      "type": "text",
+      "prompt": "Completa: Der Kurs fängt um neun Uhr ___. (anfangen)",
+      "answer": "an",
+      "explanation": "«Anfangen» se conjuga «fängt … an» en tercera persona.",
+      "accepted_answers": [
+        "an"
+      ]
+    },
+    {
+      "id": "de_a1_sep_005",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la oración correcta.",
+      "answer": "Ich sehe am Abend fern.",
+      "explanation": "«Fernsehen» se separa: sehe … fern.",
+      "options": [
+        "Ich fernsehe am Abend.",
+        "Ich sehe am Abend fern.",
+        "Ich sehe fern am Abendt."
+      ]
+    },
+    {
+      "id": "de_a1_sep_006",
+      "type": "text",
+      "prompt": "Ordena: du / wann / auf / stehst / ?",
+      "answer": "Wann stehst du auf?",
+      "explanation": "En una pregunta, el verbo va tras la palabra interrogativa y el prefijo al final.",
+      "accepted_answers": [
+        "Wann stehst du auf",
+        "Wann stehst du auf?"
+      ]
+    },
+    {
+      "id": "de_a1_sep_007",
+      "type": "text",
+      "prompt": "Completa: Der Zug kommt um 18 Uhr ___. (ankommen)",
+      "answer": "an",
+      "explanation": "«Ankommen» se separa: der Zug kommt … an.",
+      "accepted_answers": [
+        "an"
+      ]
+    },
+    {
+      "id": "de_a1_sep_008",
+      "type": "text",
+      "prompt": "Completa: Bitte mach das Fenster ___. (zumachen)",
+      "answer": "zu",
+      "explanation": "En el imperativo, el prefijo separable también queda al final.",
+      "accepted_answers": [
+        "zu"
+      ]
+    },
+    {
+      "id": "de_a1_sep_009",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el infinitivo de «Ich lade Anna ein»?",
+      "answer": "einladen",
+      "explanation": "«Einladen» significa invitar.",
+      "options": [
+        "laden",
+        "anladen",
+        "einladen"
+      ]
+    },
+    {
+      "id": "de_a1_sep_010",
+      "type": "text",
+      "prompt": "Completa: Am Abend räume ich mein Zimmer ___. (aufräumen)",
+      "answer": "auf",
+      "explanation": "«Aufräumen» se divide: räume … auf.",
+      "accepted_answers": [
+        "auf"
+      ]
+    },
+    {
+      "id": "de_a1_sep_011",
+      "type": "text",
+      "prompt": "Ordena: am Sonntag / wir / lange / schlafen / aus",
+      "answer": "Am Sonntag schlafen wir lange aus.",
+      "explanation": "El verbo conjugado «schlafen» va en segunda posición y «aus» al final.",
+      "accepted_answers": [
+        "Am Sonntag schlafen wir lange aus",
+        "Am Sonntag schlafen wir lange aus."
+      ]
+    },
+    {
+      "id": "de_a1_sep_012",
+      "type": "text",
+      "prompt": "Completa: Ich nehme eine Flasche Wasser ___. (mitnehmen)",
+      "answer": "mit",
+      "explanation": "«Mitnehmen» se separa: nehme … mit.",
+      "accepted_answers": [
+        "mit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Alfabeto, deletreo, números y datos personales",
+  "description": "Práctica de deletreo, números, edad, teléfono, dirección y correo electrónico.",
+  "questions": [
+    {
+      "id": "de_a1_num_001",
+      "type": "text",
+      "prompt": "Escribe en alemán el número 13.",
+      "answer": "dreizehn",
+      "explanation": "Los números del 13 al 19 suelen terminar en «-zehn».",
+      "accepted_answers": [
+        "dreizehn"
+      ]
+    },
+    {
+      "id": "de_a1_num_002",
+      "type": "text",
+      "prompt": "Escribe en alemán el número 20.",
+      "answer": "zwanzig",
+      "explanation": "La forma correcta es «zwanzig», con z inicial.",
+      "accepted_answers": [
+        "zwanzig"
+      ]
+    },
+    {
+      "id": "de_a1_num_003",
+      "type": "text",
+      "prompt": "Escribe en alemán el número 34.",
+      "answer": "vierunddreißig",
+      "explanation": "En alemán se dice primero la unidad, luego «und» y finalmente la decena.",
+      "accepted_answers": [
+        "vierunddreißig",
+        "vierunddreissig"
+      ]
+    },
+    {
+      "id": "de_a1_num_004",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se pregunta la edad?",
+      "answer": "Wie alt bist du?",
+      "explanation": "La estructura fija es «Wie alt bist du?».",
+      "options": [
+        "Wie Jahre du?",
+        "Wie alt bist du?",
+        "Was alt hast du?"
+      ]
+    },
+    {
+      "id": "de_a1_num_005",
+      "type": "text",
+      "prompt": "Completa: Ich bin 25 Jahre ___.",
+      "answer": "alt",
+      "explanation": "La edad se expresa con «sein»: «Ich bin 25 Jahre alt».",
+      "accepted_answers": [
+        "alt",
+        "Ich bin 25 Jahre alt.",
+        "Ich bin 25 Jahre alt"
+      ]
+    },
+    {
+      "id": "de_a1_num_006",
+      "type": "text",
+      "prompt": "Completa la pregunta: Wie ist deine ___? – 612 345 678",
+      "answer": "Telefonnummer",
+      "explanation": "«Telefonnummer» significa número de teléfono.",
+      "accepted_answers": [
+        "Telefonnummer",
+        "Handynummer"
+      ]
+    },
+    {
+      "id": "de_a1_num_007",
+      "type": "multiple_choice",
+      "prompt": "¿Qué pregunta sirve para pedir una dirección?",
+      "answer": "Wie ist deine Adresse?",
+      "explanation": "«Adresse» es dirección postal.",
+      "options": [
+        "Wo ist deine Sprache?",
+        "Wie ist deine Adresse?",
+        "Wie heißt dein Alter?"
+      ]
+    },
+    {
+      "id": "de_a1_num_008",
+      "type": "text",
+      "prompt": "Completa: Meine E-Mail-___ ist ana@example.com.",
+      "answer": "Adresse",
+      "explanation": "La expresión completa es «E-Mail-Adresse».",
+      "accepted_answers": [
+        "Adresse",
+        "E-Mail-Adresse"
+      ]
+    },
+    {
+      "id": "de_a1_num_009",
+      "type": "text",
+      "prompt": "¿Cómo se deletrea «Bahn»? Escribe las letras separadas por guiones.",
+      "answer": "B-A-H-N",
+      "explanation": "Al deletrear se nombran las letras individualmente.",
+      "accepted_answers": [
+        "B-A-H-N",
+        "B A H N",
+        "b-a-h-n"
+      ]
+    },
+    {
+      "id": "de_a1_num_010",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la forma correcta de preguntar cómo se escribe una palabra.",
+      "answer": "Wie schreibt man das?",
+      "explanation": "«Wie schreibt man das?» significa «¿Cómo se escribe eso?».",
+      "options": [
+        "Wie spricht das?",
+        "Wie schreibt man das?",
+        "Was lesen das?"
+      ]
+    },
+    {
+      "id": "de_a1_num_011",
+      "type": "text",
+      "prompt": "Escribe en alemán 99.",
+      "answer": "neunundneunzig",
+      "explanation": "Primero va «neun», después «und» y luego «neunzig».",
+      "accepted_answers": [
+        "neunundneunzig"
+      ]
+    },
+    {
+      "id": "de_a1_num_012",
+      "type": "text",
+      "prompt": "Completa: Meine Hausnummer ist ___. (dieciocho)",
+      "answer": "achtzehn",
+      "explanation": "«Dieciocho» se dice «achtzehn».",
+      "accepted_answers": [
+        "achtzehn"
+      ]
+    }
+  ]
+}

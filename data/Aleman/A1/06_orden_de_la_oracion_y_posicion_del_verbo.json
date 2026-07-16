@@ -1,0 +1,141 @@
+{
+  "title": "Orden de la oración y posición del verbo",
+  "description": "Práctica de la regla V2, inversión y estructura básica de las oraciones principales.",
+  "questions": [
+    {
+      "id": "de_a1_ord_001",
+      "type": "text",
+      "prompt": "Ordena: ich / Deutsch / lerne",
+      "answer": "Ich lerne Deutsch.",
+      "explanation": "La oración principal básica sigue sujeto + verbo + complementos.",
+      "accepted_answers": [
+        "Ich lerne Deutsch",
+        "Ich lerne Deutsch."
+      ]
+    },
+    {
+      "id": "de_a1_ord_002",
+      "type": "text",
+      "prompt": "Ordena: heute / ich / arbeite",
+      "answer": "Heute arbeite ich.",
+      "explanation": "Si un complemento ocupa la primera posición, el verbo sigue en segunda y el sujeto pasa detrás.",
+      "accepted_answers": [
+        "Heute arbeite ich",
+        "Heute arbeite ich."
+      ]
+    },
+    {
+      "id": "de_a1_ord_003",
+      "type": "text",
+      "prompt": "Ordena: am Montag / wir / Deutsch / lernen",
+      "answer": "Am Montag lernen wir Deutsch.",
+      "explanation": "«Am Montag» ocupa la primera posición; el verbo «lernen» queda en segunda.",
+      "accepted_answers": [
+        "Am Montag lernen wir Deutsch",
+        "Am Montag lernen wir Deutsch."
+      ]
+    },
+    {
+      "id": "de_a1_ord_004",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la oración correcta.",
+      "answer": "Morgen fahre ich nach Berlin.",
+      "explanation": "El verbo conjugado debe ocupar la segunda posición.",
+      "options": [
+        "Morgen ich fahre nach Berlin.",
+        "Morgen fahre ich nach Berlin.",
+        "Morgen nach Berlin ich fahre."
+      ]
+    },
+    {
+      "id": "de_a1_ord_005",
+      "type": "text",
+      "prompt": "Ordena: um acht Uhr / der Kurs / beginnt",
+      "answer": "Um acht Uhr beginnt der Kurs.",
+      "explanation": "Al comenzar con la hora, el verbo permanece en segunda posición.",
+      "accepted_answers": [
+        "Um acht Uhr beginnt der Kurs",
+        "Um acht Uhr beginnt der Kurs."
+      ]
+    },
+    {
+      "id": "de_a1_ord_006",
+      "type": "text",
+      "prompt": "Ordena: gern / Musik / hört / er",
+      "answer": "Er hört gern Musik.",
+      "explanation": "El adverbio «gern» suele colocarse después del verbo y cerca de la actividad.",
+      "accepted_answers": [
+        "Er hört gern Musik",
+        "Er hört gern Musik."
+      ]
+    },
+    {
+      "id": "de_a1_ord_007",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "answer": "Ich gehe heute ins Kino.",
+      "explanation": "El tiempo suele aparecer antes que el lugar en una oración neutra.",
+      "options": [
+        "Ich heute gehe ins Kino.",
+        "Ich gehe heute ins Kino.",
+        "Ich ins Kino heute gehe."
+      ]
+    },
+    {
+      "id": "de_a1_ord_008",
+      "type": "text",
+      "prompt": "Ordena: jeden Tag / sie / Kaffee / trinkt",
+      "answer": "Sie trinkt jeden Tag Kaffee.",
+      "explanation": "El verbo conjugado ocupa la segunda posición.",
+      "accepted_answers": [
+        "Sie trinkt jeden Tag Kaffee",
+        "Sie trinkt jeden Tag Kaffee."
+      ]
+    },
+    {
+      "id": "de_a1_ord_009",
+      "type": "text",
+      "prompt": "Ordena: im Sommer / nach Deutschland / wir / fahren",
+      "answer": "Im Sommer fahren wir nach Deutschland.",
+      "explanation": "El complemento temporal inicial provoca inversión sujeto-verbo.",
+      "accepted_answers": [
+        "Im Sommer fahren wir nach Deutschland",
+        "Im Sommer fahren wir nach Deutschland."
+      ]
+    },
+    {
+      "id": "de_a1_ord_010",
+      "type": "multiple_choice",
+      "prompt": "Completa correctamente: Danach ___ ich nach Hause.",
+      "answer": "gehe",
+      "explanation": "Tras «Danach», el verbo va inmediatamente después.",
+      "options": [
+        "ich gehe",
+        "gehe",
+        "nach Hause gehe"
+      ]
+    },
+    {
+      "id": "de_a1_ord_011",
+      "type": "text",
+      "prompt": "Corrige: Heute ich lerne Deutsch.",
+      "answer": "Heute lerne ich Deutsch.",
+      "explanation": "La regla V2 exige que «lerne» esté en segunda posición.",
+      "accepted_answers": [
+        "Heute lerne ich Deutsch",
+        "Heute lerne ich Deutsch."
+      ]
+    },
+    {
+      "id": "de_a1_ord_012",
+      "type": "text",
+      "prompt": "Ordena: manchmal / am Wochenende / ich / arbeite",
+      "answer": "Am Wochenende arbeite ich manchmal.",
+      "explanation": "El verbo va en segunda posición y «manchmal» puede aparecer después del sujeto.",
+      "accepted_answers": [
+        "Am Wochenende arbeite ich manchmal",
+        "Am Wochenende arbeite ich manchmal."
+      ]
+    }
+  ]
+}

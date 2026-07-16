@@ -1,0 +1,147 @@
+{
+  "title": "Artículos, género y plural",
+  "description": "Práctica de los artículos definidos e indefinidos y de plurales frecuentes.",
+  "questions": [
+    {
+      "id": "de_a1_art_001",
+      "type": "multiple_choice",
+      "prompt": "Selecciona el artículo correcto: ___ Tisch",
+      "answer": "der",
+      "explanation": "«Tisch» es masculino: der Tisch.",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_art_002",
+      "type": "multiple_choice",
+      "prompt": "Selecciona el artículo correcto: ___ Lampe",
+      "answer": "die",
+      "explanation": "«Lampe» es femenino: die Lampe.",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_art_003",
+      "type": "multiple_choice",
+      "prompt": "Selecciona el artículo correcto: ___ Buch",
+      "answer": "das",
+      "explanation": "«Buch» es neutro: das Buch.",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_art_004",
+      "type": "text",
+      "prompt": "Completa: Das ist ___ Mann.",
+      "answer": "ein",
+      "explanation": "El artículo indefinido masculino en nominativo es «ein».",
+      "accepted_answers": [
+        "ein",
+        "Das ist ein Mann.",
+        "Das ist ein Mann"
+      ]
+    },
+    {
+      "id": "de_a1_art_005",
+      "type": "text",
+      "prompt": "Completa: Das ist ___ Frau.",
+      "answer": "eine",
+      "explanation": "El artículo indefinido femenino en nominativo es «eine».",
+      "accepted_answers": [
+        "eine",
+        "Das ist eine Frau.",
+        "Das ist eine Frau"
+      ]
+    },
+    {
+      "id": "de_a1_art_006",
+      "type": "text",
+      "prompt": "Completa: Das ist ___ Kind.",
+      "answer": "ein",
+      "explanation": "El neutro usa «ein» en nominativo.",
+      "accepted_answers": [
+        "ein",
+        "Das ist ein Kind.",
+        "Das ist ein Kind"
+      ]
+    },
+    {
+      "id": "de_a1_art_007",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de «das Buch»?",
+      "answer": "die Bücher",
+      "explanation": "El plural cambia la vocal a «ü» y añade «-er»: die Bücher.",
+      "options": [
+        "die Buch",
+        "die Buche",
+        "die Bücher"
+      ]
+    },
+    {
+      "id": "de_a1_art_008",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de «der Tag»?",
+      "answer": "die Tage",
+      "explanation": "El plural de «Tag» es «Tage».",
+      "options": [
+        "die Tagen",
+        "die Tage",
+        "die Täge"
+      ]
+    },
+    {
+      "id": "de_a1_art_009",
+      "type": "text",
+      "prompt": "Escribe el plural con artículo de «die Frau».",
+      "answer": "die Frauen",
+      "explanation": "Muchos sustantivos femeninos añaden «-en» en plural.",
+      "accepted_answers": [
+        "die Frauen",
+        "Frauen"
+      ]
+    },
+    {
+      "id": "de_a1_art_010",
+      "type": "text",
+      "prompt": "Escribe el plural con artículo de «das Kind».",
+      "answer": "die Kinder",
+      "explanation": "Todos los plurales llevan el artículo «die».",
+      "accepted_answers": [
+        "die Kinder",
+        "Kinder"
+      ]
+    },
+    {
+      "id": "de_a1_art_011",
+      "type": "multiple_choice",
+      "prompt": "¿Qué artículo llevan todos los sustantivos en plural en nominativo?",
+      "answer": "die",
+      "explanation": "El artículo definido plural es siempre «die».",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_art_012",
+      "type": "text",
+      "prompt": "Completa: ___ Autos sind neu.",
+      "answer": "Die",
+      "explanation": "«Autos» está en plural y utiliza «die».",
+      "accepted_answers": [
+        "Die",
+        "die"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Saludos, despedidas y presentaciones",
+  "description": "Práctica A1 para saludar, despedirse, presentarse y preguntar datos personales básicos.",
+  "questions": [
+    {
+      "id": "de_a1_sal_001",
+      "type": "text",
+      "prompt": "Completa: Guten ___! (por la mañana)",
+      "answer": "Morgen",
+      "explanation": "«Guten Morgen» se utiliza habitualmente hasta aproximadamente el mediodía.",
+      "accepted_answers": [
+        "Guten Morgen",
+        "Guten Morgen!"
+      ]
+    },
+    {
+      "id": "de_a1_sal_002",
+      "type": "multiple_choice",
+      "prompt": "¿Qué expresión significa «Buenas tardes»?",
+      "answer": "Guten Tag",
+      "explanation": "«Guten Tag» es un saludo general durante el día.",
+      "options": [
+        "Gute Nacht",
+        "Guten Tag",
+        "Auf Wiedersehen"
+      ]
+    },
+    {
+      "id": "de_a1_sal_003",
+      "type": "text",
+      "prompt": "Completa: Ich ___ Laura. (heißen)",
+      "answer": "heiße",
+      "explanation": "El verbo «heißen» con «ich» se conjuga «ich heiße».",
+      "accepted_answers": [
+        "Ich heiße Laura.",
+        "Ich heiße Laura",
+        "heiße"
+      ]
+    },
+    {
+      "id": "de_a1_sal_004",
+      "type": "text",
+      "prompt": "Pregunta por el nombre de manera informal: Wie ___ du?",
+      "answer": "heißt",
+      "explanation": "Con «du», el verbo «heißen» adopta la forma «heißt».",
+      "accepted_answers": [
+        "Wie heißt du?",
+        "Wie heißt du",
+        "heißt"
+      ]
+    },
+    {
+      "id": "de_a1_sal_005",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la pregunta formal correcta para preguntar el nombre.",
+      "answer": "Wie heißen Sie?",
+      "explanation": "El pronombre formal «Sie» se escribe con mayúscula y usa la forma verbal del plural.",
+      "options": [
+        "Wie heißt du?",
+        "Wie heißen Sie?",
+        "Wer bist sie?"
+      ]
+    },
+    {
+      "id": "de_a1_sal_006",
+      "type": "text",
+      "prompt": "Completa: Ich komme ___ Spanien.",
+      "answer": "aus",
+      "explanation": "La preposición «aus» expresa procedencia: «aus Spanien».",
+      "accepted_answers": [
+        "aus",
+        "Ich komme aus Spanien.",
+        "Ich komme aus Spanien"
+      ]
+    },
+    {
+      "id": "de_a1_sal_007",
+      "type": "text",
+      "prompt": "Completa: Ich wohne ___ Madrid.",
+      "answer": "in",
+      "explanation": "Se usa «in» para indicar la ciudad o el país donde se vive.",
+      "accepted_answers": [
+        "in",
+        "Ich wohne in Madrid.",
+        "Ich wohne in Madrid"
+      ]
+    },
+    {
+      "id": "de_a1_sal_008",
+      "type": "multiple_choice",
+      "prompt": "¿Qué respuesta corresponde a «Wie geht es dir?»?",
+      "answer": "Mir geht es gut.",
+      "explanation": "«Mir geht es gut» significa «Estoy bien».",
+      "options": [
+        "Ich heiße Pablo.",
+        "Mir geht es gut.",
+        "Ich komme aus Chile."
+      ]
+    },
+    {
+      "id": "de_a1_sal_009",
+      "type": "text",
+      "prompt": "Completa la despedida formal: Auf ___.",
+      "answer": "Wiedersehen",
+      "explanation": "La expresión completa es «Auf Wiedersehen».",
+      "accepted_answers": [
+        "Wiedersehen",
+        "Auf Wiedersehen",
+        "Auf Wiedersehen."
+      ]
+    },
+    {
+      "id": "de_a1_sal_010",
+      "type": "text",
+      "prompt": "Traduce: «Encantado de conocerte».",
+      "answer": "Freut mich.",
+      "explanation": "«Freut mich» es una fórmula breve y frecuente al conocer a alguien.",
+      "accepted_answers": [
+        "Freut mich",
+        "Freut mich.",
+        "Es freut mich."
+      ]
+    },
+    {
+      "id": "de_a1_sal_011",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es una despedida informal?",
+      "answer": "Tschüss!",
+      "explanation": "«Tschüss» es una despedida informal muy común.",
+      "options": [
+        "Guten Morgen!",
+        "Tschüss!",
+        "Bitte!"
+      ]
+    },
+    {
+      "id": "de_a1_sal_012",
+      "type": "text",
+      "prompt": "Escribe una presentación con nombre y procedencia.",
+      "answer": "Ich heiße Ana und komme aus Spanien.",
+      "explanation": "Se combinan «Ich heiße…» e «ich komme aus…» para dar información personal básica.",
+      "accepted_answers": [
+        "Ich heiße Ana und komme aus Spanien",
+        "Ich heiße Ana. Ich komme aus Spanien.",
+        "Ich heiße Ana. Ich komme aus Spanien"
+      ],
+      "multiline": true
+    }
+  ]
+}

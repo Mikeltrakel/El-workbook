@@ -1,0 +1,150 @@
+{
+  "title": "Lectura, escritura y comunicación tipo examen A1",
+  "description": "Ejercicios breves inspirados en las funciones comunicativas de lectura, escritura y expresión oral del nivel A1.",
+  "questions": [
+    {
+      "id": "de_a1_exa_001",
+      "type": "multiple_choice",
+      "prompt": "Cartel: «Heute geschlossen». ¿Qué significa?",
+      "answer": "Hoy está cerrado.",
+      "explanation": "«Heute» significa hoy y «geschlossen», cerrado.",
+      "options": [
+        "Hoy está cerrado.",
+        "Hoy abre tarde.",
+        "Mañana está cerrado."
+      ]
+    },
+    {
+      "id": "de_a1_exa_002",
+      "type": "multiple_choice",
+      "prompt": "Aviso: «Zug nach Köln: 20 Minuten Verspätung». ¿Qué ocurre?",
+      "answer": "El tren lleva 20 minutos de retraso.",
+      "explanation": "«Verspätung» significa retraso.",
+      "options": [
+        "El tren sale 20 minutos antes.",
+        "El tren lleva 20 minutos de retraso.",
+        "El viaje dura 20 minutos."
+      ]
+    },
+    {
+      "id": "de_a1_exa_003",
+      "type": "text",
+      "prompt": "Completa un formulario: Familienname: García. Vorname: ___ (Ana)",
+      "answer": "Ana",
+      "explanation": "«Vorname» es el nombre de pila.",
+      "accepted_answers": [
+        "Ana"
+      ]
+    },
+    {
+      "id": "de_a1_exa_004",
+      "type": "text",
+      "prompt": "Escribe una frase para decir que no puedes ir hoy.",
+      "answer": "Ich kann heute nicht kommen.",
+      "explanation": "Con «können» se expresa imposibilidad; el infinitivo queda al final.",
+      "accepted_answers": [
+        "Ich kann heute nicht kommen",
+        "Ich kann heute nicht kommen."
+      ]
+    },
+    {
+      "id": "de_a1_exa_005",
+      "type": "text",
+      "prompt": "Escribe una pregunta para saber la hora de una reunión.",
+      "answer": "Wann beginnt das Treffen?",
+      "explanation": "«Wann» pregunta por el momento en que empieza algo.",
+      "accepted_answers": [
+        "Wann beginnt das Treffen",
+        "Wann beginnt das Treffen?",
+        "Um wie viel Uhr beginnt das Treffen?",
+        "Um wie viel Uhr beginnt das Treffen"
+      ]
+    },
+    {
+      "id": "de_a1_exa_006",
+      "type": "multiple_choice",
+      "prompt": "Mensaje: «Bitte bringen Sie Ihren Pass mit». ¿Qué debes llevar?",
+      "answer": "El pasaporte.",
+      "explanation": "«Pass» significa pasaporte y «mitbringen», traer consigo.",
+      "options": [
+        "El billete.",
+        "El pasaporte.",
+        "Una fotografía."
+      ]
+    },
+    {
+      "id": "de_a1_exa_007",
+      "type": "text",
+      "prompt": "Escribe una petición cortés de agua.",
+      "answer": "Ein Wasser, bitte.",
+      "explanation": "«Bitte» convierte la solicitud breve en una petición cortés.",
+      "accepted_answers": [
+        "Ein Wasser, bitte",
+        "Ein Wasser, bitte.",
+        "Ich hätte gern ein Wasser.",
+        "Ich hätte gern ein Wasser"
+      ]
+    },
+    {
+      "id": "de_a1_exa_008",
+      "type": "text",
+      "prompt": "Escribe una invitación sencilla para el sábado.",
+      "answer": "Hast du am Samstag Zeit?",
+      "explanation": "Esta pregunta sirve para iniciar una invitación o propuesta.",
+      "accepted_answers": [
+        "Hast du am Samstag Zeit",
+        "Hast du am Samstag Zeit?"
+      ]
+    },
+    {
+      "id": "de_a1_exa_009",
+      "type": "multiple_choice",
+      "prompt": "Correo: «Der Termin ist am Dienstag um 14 Uhr». ¿Cuándo es la cita?",
+      "answer": "El martes a las 14:00.",
+      "explanation": "«Am Dienstag» indica el día y «um 14 Uhr», la hora.",
+      "options": [
+        "El lunes a las 14:00.",
+        "El martes a las 14:00.",
+        "El martes a las 4:00."
+      ]
+    },
+    {
+      "id": "de_a1_exa_010",
+      "type": "text",
+      "prompt": "Responde negativamente y con cortesía a una invitación.",
+      "answer": "Nein, danke. Leider kann ich nicht.",
+      "explanation": "«Leider» permite rechazar de forma cortés explicando que no es posible.",
+      "accepted_answers": [
+        "Nein, danke. Leider kann ich nicht",
+        "Nein, danke. Leider kann ich nicht.",
+        "Leider kann ich nicht.",
+        "Leider kann ich nicht"
+      ]
+    },
+    {
+      "id": "de_a1_exa_011",
+      "type": "text",
+      "prompt": "Escribe tres datos personales: nombre, ciudad y lengua.",
+      "answer": "Ich heiße Ana. Ich wohne in Madrid. Ich spreche Spanisch.",
+      "explanation": "Una presentación A1 puede encadenar oraciones simples sobre identidad, residencia e idioma.",
+      "accepted_answers": [
+        "Ich heiße Ana. Ich wohne in Madrid. Ich spreche Spanisch",
+        "Ich heiße Ana, wohne in Madrid und spreche Spanisch.",
+        "Ich heiße Ana, wohne in Madrid und spreche Spanisch"
+      ],
+      "multiline": true
+    },
+    {
+      "id": "de_a1_exa_012",
+      "type": "text",
+      "prompt": "Escribe un mensaje breve: estás enfermo y no puedes ir al curso.",
+      "answer": "Ich bin krank und kann heute nicht zum Kurs kommen.",
+      "explanation": "La frase combina «sein», el modal «können» y el destino «zum Kurs».",
+      "accepted_answers": [
+        "Ich bin krank und kann heute nicht zum Kurs kommen",
+        "Ich bin krank und kann heute nicht zum Kurs kommen."
+      ],
+      "multiline": true
+    }
+  ]
+}

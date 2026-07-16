@@ -1,0 +1,130 @@
+{
+  "title": "Acusativo y objetos directos",
+  "description": "Introducción al acusativo con artículos, pronombres y verbos frecuentes.",
+  "questions": [
+    {
+      "id": "de_a1_akk_001",
+      "type": "text",
+      "prompt": "Completa: Ich kaufe ___ Apfel. (ein)",
+      "answer": "einen",
+      "explanation": "El masculino cambia de «ein» a «einen» en acusativo.",
+      "accepted_answers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "de_a1_akk_002",
+      "type": "text",
+      "prompt": "Completa: Sie hat ___ Bruder. (ein)",
+      "answer": "einen",
+      "explanation": "«Bruder» es masculino y funciona como objeto directo.",
+      "accepted_answers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "de_a1_akk_003",
+      "type": "text",
+      "prompt": "Completa: Ich sehe ___ Mann. (der)",
+      "answer": "den",
+      "explanation": "El artículo masculino definido cambia de «der» a «den» en acusativo.",
+      "accepted_answers": [
+        "den"
+      ]
+    },
+    {
+      "id": "de_a1_akk_004",
+      "type": "text",
+      "prompt": "Completa: Wir kaufen ___ Lampe. (die)",
+      "answer": "die",
+      "explanation": "El artículo femenino no cambia en acusativo.",
+      "accepted_answers": [
+        "die"
+      ]
+    },
+    {
+      "id": "de_a1_akk_005",
+      "type": "text",
+      "prompt": "Completa: Er liest ___ Buch. (das)",
+      "answer": "das",
+      "explanation": "El artículo neutro permanece «das» en acusativo.",
+      "accepted_answers": [
+        "das"
+      ]
+    },
+    {
+      "id": "de_a1_akk_006",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la forma correcta: Ich brauche ___ Computer.",
+      "answer": "einen",
+      "explanation": "«Computer» es masculino y está en acusativo.",
+      "options": [
+        "ein",
+        "einen",
+        "eine"
+      ]
+    },
+    {
+      "id": "de_a1_akk_007",
+      "type": "text",
+      "prompt": "Completa: Möchtest du ___ Kaffee? (ein)",
+      "answer": "einen",
+      "explanation": "«Kaffee» es masculino; como objeto directo usa «einen».",
+      "accepted_answers": [
+        "einen"
+      ]
+    },
+    {
+      "id": "de_a1_akk_008",
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "answer": "Ich esse eine Banane.",
+      "explanation": "«Banane» es femenino y el artículo «eine» no cambia en acusativo.",
+      "options": [
+        "Ich esse einen Banane.",
+        "Ich esse eine Banane.",
+        "Ich esse ein Banane."
+      ]
+    },
+    {
+      "id": "de_a1_akk_009",
+      "type": "text",
+      "prompt": "Sustituye «den Mann» por un pronombre: Ich sehe ___.",
+      "answer": "ihn",
+      "explanation": "El pronombre acusativo masculino de «er» es «ihn».",
+      "accepted_answers": [
+        "ihn"
+      ]
+    },
+    {
+      "id": "de_a1_akk_010",
+      "type": "text",
+      "prompt": "Sustituye «die Frau»: Ich kenne ___.",
+      "answer": "sie",
+      "explanation": "El pronombre acusativo femenino es «sie».",
+      "accepted_answers": [
+        "sie"
+      ]
+    },
+    {
+      "id": "de_a1_akk_011",
+      "type": "text",
+      "prompt": "Completa: Wir besuchen ___ Freunde. (unsere)",
+      "answer": "unsere",
+      "explanation": "En plural acusativo, «unsere» mantiene esta forma.",
+      "accepted_answers": [
+        "unsere"
+      ]
+    },
+    {
+      "id": "de_a1_akk_012",
+      "type": "text",
+      "prompt": "Completa: Ich habe ___ Hund. (kein)",
+      "answer": "keinen",
+      "explanation": "El negativo masculino en acusativo es «keinen».",
+      "accepted_answers": [
+        "keinen"
+      ]
+    }
+  ]
+}

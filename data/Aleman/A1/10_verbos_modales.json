@@ -1,0 +1,136 @@
+{
+  "title": "Verbos modales",
+  "description": "Práctica de können, müssen, wollen, möchten y dürfen con infinitivo final.",
+  "questions": [
+    {
+      "id": "de_a1_mod_001",
+      "type": "text",
+      "prompt": "Completa: Ich ___ Deutsch sprechen. (können)",
+      "answer": "kann",
+      "explanation": "«Können» con «ich» se conjuga «kann» y el infinitivo va al final.",
+      "accepted_answers": [
+        "kann"
+      ]
+    },
+    {
+      "id": "de_a1_mod_002",
+      "type": "text",
+      "prompt": "Completa: Du ___ heute arbeiten. (müssen)",
+      "answer": "musst",
+      "explanation": "La forma con «du» es «musst».",
+      "accepted_answers": [
+        "musst"
+      ]
+    },
+    {
+      "id": "de_a1_mod_003",
+      "type": "text",
+      "prompt": "Completa: Wir ___ nach Berlin fahren. (wollen)",
+      "answer": "wollen",
+      "explanation": "Con «wir», «wollen» mantiene la forma del infinitivo.",
+      "accepted_answers": [
+        "wollen"
+      ]
+    },
+    {
+      "id": "de_a1_mod_004",
+      "type": "text",
+      "prompt": "Completa: Ich ___ einen Kaffee. (möchten)",
+      "answer": "möchte",
+      "explanation": "«Ich möchte…» expresa un deseo de manera cortés.",
+      "accepted_answers": [
+        "möchte"
+      ]
+    },
+    {
+      "id": "de_a1_mod_005",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la oración correcta.",
+      "answer": "Ich kann gut schwimmen.",
+      "explanation": "Con un modal, el segundo verbo aparece en infinitivo al final.",
+      "options": [
+        "Ich kann schwimme gut.",
+        "Ich kann gut schwimmen.",
+        "Ich schwimmen kann gut."
+      ]
+    },
+    {
+      "id": "de_a1_mod_006",
+      "type": "text",
+      "prompt": "Ordena: heute / muss / lernen / ich",
+      "answer": "Ich muss heute lernen.",
+      "explanation": "El modal conjugado ocupa la segunda posición y el infinitivo va al final.",
+      "accepted_answers": [
+        "Ich muss heute lernen",
+        "Ich muss heute lernen."
+      ]
+    },
+    {
+      "id": "de_a1_mod_007",
+      "type": "text",
+      "prompt": "Completa: ___ ich hier parken? (dürfen)",
+      "answer": "Darf",
+      "explanation": "La pregunta con modal comienza con «Darf».",
+      "accepted_answers": [
+        "Darf",
+        "Darf ich hier parken?",
+        "Darf ich hier parken"
+      ]
+    },
+    {
+      "id": "de_a1_mod_008",
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa «Ich kann nicht kommen»?",
+      "answer": "No puedo venir.",
+      "explanation": "«Können» expresa capacidad o posibilidad.",
+      "options": [
+        "No quiero venir.",
+        "No puedo venir.",
+        "No debo venir."
+      ]
+    },
+    {
+      "id": "de_a1_mod_009",
+      "type": "text",
+      "prompt": "Completa: Er ___ morgen zum Arzt gehen. (müssen)",
+      "answer": "muss",
+      "explanation": "La tercera persona singular de «müssen» es «muss».",
+      "accepted_answers": [
+        "muss"
+      ]
+    },
+    {
+      "id": "de_a1_mod_010",
+      "type": "text",
+      "prompt": "Completa: Wir ___ zwei Tickets, bitte. (möchten)",
+      "answer": "möchten",
+      "explanation": "Con «wir», la forma es «möchten».",
+      "accepted_answers": [
+        "möchten"
+      ]
+    },
+    {
+      "id": "de_a1_mod_011",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la frase que expresa permiso.",
+      "answer": "Du darfst hier sitzen.",
+      "explanation": "«Dürfen» se utiliza para expresar permiso.",
+      "options": [
+        "Du musst hier sitzen.",
+        "Du darfst hier sitzen.",
+        "Du willst hier sitzen."
+      ]
+    },
+    {
+      "id": "de_a1_mod_012",
+      "type": "text",
+      "prompt": "Ordena: am Wochenende / ausschlafen / möchte / ich",
+      "answer": "Ich möchte am Wochenende ausschlafen.",
+      "explanation": "El infinitivo «ausschlafen» se coloca al final.",
+      "accepted_answers": [
+        "Ich möchte am Wochenende ausschlafen",
+        "Ich möchte am Wochenende ausschlafen."
+      ]
+    }
+  ]
+}

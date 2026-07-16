@@ -1,0 +1,136 @@
+{
+  "title": "Casa, ciudad, transporte y direcciones",
+  "description": "Práctica para describir la vivienda, localizar lugares y pedir o dar indicaciones.",
+  "questions": [
+    {
+      "id": "de_a1_sta_001",
+      "type": "text",
+      "prompt": "Completa: Ich wohne in einer ___. (vivienda)",
+      "answer": "Wohnung",
+      "explanation": "«Wohnung» significa piso o vivienda.",
+      "accepted_answers": [
+        "Wohnung"
+      ]
+    },
+    {
+      "id": "de_a1_sta_002",
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra significa «estación central»?",
+      "answer": "Hauptbahnhof",
+      "explanation": "«Hauptbahnhof» es la estación principal de tren.",
+      "options": [
+        "Flughafen",
+        "Hauptbahnhof",
+        "Krankenhaus"
+      ]
+    },
+    {
+      "id": "de_a1_sta_003",
+      "type": "text",
+      "prompt": "Completa: Wo ist ___ Supermarkt?",
+      "answer": "der",
+      "explanation": "«Supermarkt» es masculino.",
+      "accepted_answers": [
+        "der"
+      ]
+    },
+    {
+      "id": "de_a1_sta_004",
+      "type": "text",
+      "prompt": "Completa: Gehen Sie gerade___.",
+      "answer": "aus",
+      "explanation": "«Geradeaus» significa todo recto.",
+      "accepted_answers": [
+        "aus",
+        "geradeaus"
+      ]
+    },
+    {
+      "id": "de_a1_sta_005",
+      "type": "multiple_choice",
+      "prompt": "¿Qué expresión significa «gire a la izquierda»?",
+      "answer": "Gehen Sie links.",
+      "explanation": "«Links» indica la dirección izquierda.",
+      "options": [
+        "Gehen Sie links.",
+        "Gehen Sie oben.",
+        "Gehen Sie gestern."
+      ]
+    },
+    {
+      "id": "de_a1_sta_006",
+      "type": "text",
+      "prompt": "Completa: Die Bank ist ___ dem Café.",
+      "answer": "neben",
+      "explanation": "«Neben» significa al lado de.",
+      "accepted_answers": [
+        "neben"
+      ]
+    },
+    {
+      "id": "de_a1_sta_007",
+      "type": "text",
+      "prompt": "Completa: Der Bus hält ___ der Haltestelle.",
+      "answer": "an",
+      "explanation": "La expresión es «an der Haltestelle»; en esta frase ya aparece «der».",
+      "accepted_answers": [
+        "an"
+      ]
+    },
+    {
+      "id": "de_a1_sta_008",
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se pregunta por el camino a la estación?",
+      "answer": "Wie komme ich zum Bahnhof?",
+      "explanation": "«Wie komme ich zu…?» sirve para pedir indicaciones.",
+      "options": [
+        "Wie kostet der Bahnhof?",
+        "Wie komme ich zum Bahnhof?",
+        "Wer ist zum Bahnhof?"
+      ]
+    },
+    {
+      "id": "de_a1_sta_009",
+      "type": "text",
+      "prompt": "Completa: Ich fahre mit ___ Bus.",
+      "answer": "dem",
+      "explanation": "Tras «mit» se usa dativo: mit dem Bus.",
+      "accepted_answers": [
+        "dem"
+      ]
+    },
+    {
+      "id": "de_a1_sta_010",
+      "type": "text",
+      "prompt": "Completa: Sie fährt mit ___ U-Bahn.",
+      "answer": "der",
+      "explanation": "«U-Bahn» es femenino y tras «mit» usa «der».",
+      "accepted_answers": [
+        "der"
+      ]
+    },
+    {
+      "id": "de_a1_sta_011",
+      "type": "multiple_choice",
+      "prompt": "Selecciona la frase correcta.",
+      "answer": "Der Bahnhof ist gegenüber dem Hotel.",
+      "explanation": "«Gegenüber» indica que algo está enfrente de otra cosa.",
+      "options": [
+        "Der Bahnhof ist gegenüber dem Hotel.",
+        "Der Bahnhof ist gestern dem Hotel.",
+        "Der Bahnhof gegenüber ist fahren."
+      ]
+    },
+    {
+      "id": "de_a1_sta_012",
+      "type": "text",
+      "prompt": "Escribe: «¿Hay aquí una farmacia?»",
+      "answer": "Gibt es hier eine Apotheke?",
+      "explanation": "La estructura «Gibt es…?» pregunta si existe o hay algo.",
+      "accepted_answers": [
+        "Gibt es hier eine Apotheke",
+        "Gibt es hier eine Apotheke?"
+      ]
+    }
+  ]
+}

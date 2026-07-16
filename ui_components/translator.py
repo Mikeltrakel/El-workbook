@@ -276,6 +276,11 @@ def render_focus_preserving_translator(language: str) -> None:
             }}
 
             function updateTranslatorPosition() {{
+                if (window.parent.__languagePracticeLayoutFloatingPanels) {{
+                    window.parent.__languagePracticeLayoutFloatingPanels();
+                    return;
+                }}
+
                 const margin = 16;
                 const gap = 12;
                 const viewportHeight = window.parent.innerHeight;

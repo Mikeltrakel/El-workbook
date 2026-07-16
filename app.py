@@ -17,6 +17,7 @@ from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, Tabl
 
 from ui_components.character_keyboard import render_focus_preserving_keyboard
 from ui_components.language_helpers import pretty_name
+from ui_components.pronunciation import render_focus_preserving_pronunciation
 from ui_components.translator import render_focus_preserving_translator
 
 APP_DIR = Path(__file__).resolve().parent
@@ -344,6 +345,7 @@ questions = exercise["questions"]
 handle_exercise_change(str(selected_exercise_path.resolve()), questions)
 render_focus_preserving_keyboard(selected_language_path.name)
 render_focus_preserving_translator(selected_language_path.name)
+render_focus_preserving_pronunciation(selected_language_path.name)
 
 st.divider()
 st.subheader(exercise.get("title", pretty_name(selected_exercise_path.stem)))
@@ -385,6 +387,8 @@ for index, question in enumerate(questions, start=1):
                 key=current_answer_key,
                 label_visibility="collapsed",
                 placeholder="Escribe tu respuesta…",
+                on_change=check_one,
+                args=(question,),
             )
 
         check_column, reveal_column, _ = st.columns([1, 1, 3])

@@ -17,6 +17,14 @@ TRANSLATION_LANGUAGES = {
     "ruso": "ru",
 }
 
+PRONUNCIATION_LANGUAGES = {
+    "aleman": "de-DE",
+    "frances": "fr-FR",
+    "espanol": "es-ES",
+    "griego": "el-GR",
+    "ruso": "ru-RU",
+}
+
 
 def pretty_name(value: str) -> str:
     return value.replace("_", " ").replace("-", " ").strip().title()

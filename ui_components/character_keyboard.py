@@ -124,6 +124,7 @@ def render_focus_preserving_keyboard(language: str) -> None:
                     width: min(340px, calc(100vw - 2rem));
                     font-family: "Source Sans Pro", sans-serif;
                     color: var(--fpck-text);
+                    transition: top .18s ease;
                 }}
                 #${{rootId}} .fpck-toggle,
                 #${{rootId}} button,
@@ -332,11 +333,13 @@ def render_focus_preserving_keyboard(language: str) -> None:
             toggle.addEventListener("click", () => {{
                 panel.hidden = false;
                 toggle.hidden = true;
+                window.parent.__languagePracticeLayoutFloatingPanels?.();
             }});
             close.addEventListener("click", () => {{
                 panel.hidden = true;
                 toggle.hidden = false;
                 activeField?.focus({{ preventScroll: true }});
+                window.parent.__languagePracticeLayoutFloatingPanels?.();
             }});
             languageSelect.addEventListener("change", () => {{
                 selectedLanguage = languageSelect.value;
@@ -357,4 +360,3 @@ def render_focus_preserving_keyboard(language: str) -> None:
         """,
         height=0,
     )
-

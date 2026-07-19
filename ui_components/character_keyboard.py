@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-import streamlit.components.v1 as components
+import streamlit as st
 
 from .language_helpers import LANGUAGE_LABELS, language_config_key, pretty_name
 
@@ -32,7 +32,7 @@ def render_focus_preserving_keyboard(language: str) -> None:
         for key, characters in LANGUAGE_CHARACTERS.items()
     }
 
-    components.html(
+    st.iframe(
         f"""
         <script>
         (() => {{
@@ -358,5 +358,5 @@ def render_focus_preserving_keyboard(language: str) -> None:
         }})();
         </script>
         """,
-        height=0,
+        height=1,
     )

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-import streamlit.components.v1 as components
+import streamlit as st
 
 from .language_helpers import PRONUNCIATION_LANGUAGES, language_config_key
 
@@ -11,7 +11,7 @@ def render_focus_preserving_pronunciation(language: str) -> None:
     selected_language_key = language_config_key(language)
     default_language = PRONUNCIATION_LANGUAGES.get(selected_language_key, "en-US")
 
-    components.html(
+    st.iframe(
         f"""
         <script>
         (() => {{
@@ -424,5 +424,5 @@ def render_focus_preserving_pronunciation(language: str) -> None:
         }})();
         </script>
         """,
-        height=0,
+        height=1,
     )

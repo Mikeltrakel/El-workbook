@@ -74,6 +74,34 @@ Para selección múltiple:
 }
 ```
 
+Para ejercicios tipo tabla por bloques:
+
+```json
+{
+  "title": "Presente de verbos basicos",
+  "description": "Completa la forma verbal que corresponde a cada persona.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "essen_ich",
+      "block": "essen",
+      "prompt": "ich",
+      "answer": "esse",
+      "explanation": "Con 'ich', el verbo 'essen' se conjuga como 'esse'."
+    },
+    {
+      "id": "haben_ich",
+      "block": "haben",
+      "prompt": "ich",
+      "answer": "habe",
+      "explanation": "Con 'ich', el verbo 'haben' se conjuga como 'habe'."
+    }
+  ]
+}
+```
+
+En este formato cada elemento de `questions` se muestra como una fila compacta: `prompt` es el enunciado visible y `answer` es la respuesta esperada. `block` agrupa filas relacionadas, por ejemplo un verbo, un tema o una lista de frases. Si no se indica `block`, todas las filas aparecen en un unico bloque.
+
 ## Notas
 
 - `id` debe ser único dentro del ejercicio.

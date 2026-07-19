@@ -1,0 +1,253 @@
+{
+  "title": "Vocabulario: preguntas",
+  "description": "Traduce palabras interrogativas y preguntas completas.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_qvoc_001",
+      "prompt": "qué",
+      "answer": "was",
+      "explanation": "Pregunta por cosas o acciones.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_002",
+      "prompt": "quién",
+      "answer": "wer",
+      "explanation": "Pregunta por personas.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_003",
+      "prompt": "cómo",
+      "answer": "wie",
+      "explanation": "Pregunta por manera o estado.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_004",
+      "prompt": "dónde",
+      "answer": "wo",
+      "explanation": "Lugar fijo.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_005",
+      "prompt": "de dónde",
+      "answer": "woher",
+      "explanation": "Procedencia.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_006",
+      "prompt": "adónde",
+      "answer": "wohin",
+      "explanation": "Destino.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_007",
+      "prompt": "cuándo",
+      "answer": "wann",
+      "explanation": "Momento.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_008",
+      "prompt": "por qué",
+      "answer": "warum",
+      "explanation": "Causa.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_009",
+      "prompt": "cuánto",
+      "answer": "wie viel",
+      "explanation": "Cantidad o precio.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_010",
+      "prompt": "cuántos",
+      "answer": "wie viele",
+      "explanation": "Cantidad contable.",
+      "block": "palabras interrogativas"
+    },
+    {
+      "id": "de_a1_qvoc_011",
+      "prompt": "¿Cómo te llamas?",
+      "answer": "Wie heißt du?",
+      "explanation": "Pregunta por nombre.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie heißt du?",
+        "Wie heißt du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_012",
+      "prompt": "¿De dónde eres?",
+      "answer": "Woher kommst du?",
+      "explanation": "Pregunta por procedencia.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Woher kommst du?",
+        "Woher kommst du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_013",
+      "prompt": "¿Dónde vives?",
+      "answer": "Wo wohnst du?",
+      "explanation": "Pregunta por residencia.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wo wohnst du?",
+        "Wo wohnst du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_014",
+      "prompt": "¿Cuántos años tienes?",
+      "answer": "Wie alt bist du?",
+      "explanation": "Pregunta por edad.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie alt bist du?",
+        "Wie alt bist du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_015",
+      "prompt": "¿Qué idiomas hablas?",
+      "answer": "Welche Sprachen sprichst du?",
+      "explanation": "Pregunta por idiomas.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Welche Sprachen sprichst du?",
+        "Welche Sprachen sprichst du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_016",
+      "prompt": "¿Qué haces hoy?",
+      "answer": "Was machst du heute?",
+      "explanation": "Pregunta por actividad.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Was machst du heute?",
+        "Was machst du heute"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_017",
+      "prompt": "¿Cuándo empieza el curso?",
+      "answer": "Wann beginnt der Kurs?",
+      "explanation": "Pregunta por inicio.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Wann beginnt der Kurs?",
+        "Wann beginnt der Kurs"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_018",
+      "prompt": "¿Cuánto cuesta eso?",
+      "answer": "Wie viel kostet das?",
+      "explanation": "Pregunta por precio.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Wie viel kostet das?",
+        "Wie viel kostet das"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_019",
+      "prompt": "¿Quién es ese?",
+      "answer": "Wer ist das?",
+      "explanation": "Pregunta por identidad.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Wer ist das?",
+        "Wer ist das"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_020",
+      "prompt": "¿Adónde vas?",
+      "answer": "Wohin gehst du?",
+      "explanation": "Pregunta por destino.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Wohin gehst du?",
+        "Wohin gehst du"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_021",
+      "prompt": "¿Por qué aprendes alemán?",
+      "answer": "Warum lernst du Deutsch?",
+      "explanation": "Pregunta por motivo.",
+      "block": "preguntas cotidianas",
+      "accepted_answers": [
+        "Warum lernst du Deutsch?",
+        "Warum lernst du Deutsch"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_022",
+      "prompt": "¿Hablas alemán?",
+      "answer": "Sprichst du Deutsch?",
+      "explanation": "Verbo en primera posición.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Sprichst du Deutsch?",
+        "Sprichst du Deutsch"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_023",
+      "prompt": "¿Vives en Madrid?",
+      "answer": "Wohnst du in Madrid?",
+      "explanation": "Verbo en primera posición.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Wohnst du in Madrid?",
+        "Wohnst du in Madrid"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_024",
+      "prompt": "¿Tienes tiempo?",
+      "answer": "Hast du Zeit?",
+      "explanation": "Pregunta con haben.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Hast du Zeit?",
+        "Hast du Zeit"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_025",
+      "prompt": "¿Eres estudiante?",
+      "answer": "Bist du Student?",
+      "explanation": "Pregunta con sein.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Bist du Student?",
+        "Bist du Student"
+      ]
+    },
+    {
+      "id": "de_a1_qvoc_026",
+      "prompt": "¿Vienes de España?",
+      "answer": "Kommst du aus Spanien?",
+      "explanation": "Pregunta con kommen.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Kommst du aus Spanien?",
+        "Kommst du aus Spanien"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "title": "Formas verbales: sein, haben, heißen y werden",
+  "description": "Completa la forma verbal para cada persona.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "sein_01",
+      "prompt": "ich",
+      "answer": "bin",
+      "explanation": "Sein es irregular. Para «ich»: «bin».",
+      "block": "sein"
+    },
+    {
+      "id": "sein_02",
+      "prompt": "du",
+      "answer": "bist",
+      "explanation": "Sein es irregular. Para «du»: «bist».",
+      "block": "sein"
+    },
+    {
+      "id": "sein_03",
+      "prompt": "er / sie / es",
+      "answer": "ist",
+      "explanation": "Sein es irregular. Para «er / sie / es»: «ist».",
+      "block": "sein"
+    },
+    {
+      "id": "sein_04",
+      "prompt": "wir",
+      "answer": "sind",
+      "explanation": "Sein es irregular. Para «wir»: «sind».",
+      "block": "sein"
+    },
+    {
+      "id": "sein_05",
+      "prompt": "ihr",
+      "answer": "seid",
+      "explanation": "Sein es irregular. Para «ihr»: «seid».",
+      "block": "sein"
+    },
+    {
+      "id": "sein_06",
+      "prompt": "sie / Sie",
+      "answer": "sind",
+      "explanation": "Sein es irregular. Para «sie / Sie»: «sind».",
+      "block": "sein"
+    },
+    {
+      "id": "haben_01",
+      "prompt": "ich",
+      "answer": "habe",
+      "explanation": "Haben es irregular en singular. Para «ich»: «habe».",
+      "block": "haben"
+    },
+    {
+      "id": "haben_02",
+      "prompt": "du",
+      "answer": "hast",
+      "explanation": "Haben es irregular en singular. Para «du»: «hast».",
+      "block": "haben"
+    },
+    {
+      "id": "haben_03",
+      "prompt": "er / sie / es",
+      "answer": "hat",
+      "explanation": "Haben es irregular en singular. Para «er / sie / es»: «hat».",
+      "block": "haben"
+    },
+    {
+      "id": "haben_04",
+      "prompt": "wir",
+      "answer": "haben",
+      "explanation": "Haben es irregular en singular. Para «wir»: «haben».",
+      "block": "haben"
+    },
+    {
+      "id": "haben_05",
+      "prompt": "ihr",
+      "answer": "habt",
+      "explanation": "Haben es irregular en singular. Para «ihr»: «habt».",
+      "block": "haben"
+    },
+    {
+      "id": "haben_06",
+      "prompt": "sie / Sie",
+      "answer": "haben",
+      "explanation": "Haben es irregular en singular. Para «sie / Sie»: «haben».",
+      "block": "haben"
+    },
+    {
+      "id": "heissen_01",
+      "prompt": "ich",
+      "answer": "heiße",
+      "explanation": "La raíz termina en ß. Para «ich»: «heiße».",
+      "block": "heißen"
+    },
+    {
+      "id": "heissen_02",
+      "prompt": "du",
+      "answer": "heißt",
+      "explanation": "La raíz termina en ß. Para «du»: «heißt».",
+      "block": "heißen"
+    },
+    {
+      "id": "heissen_03",
+      "prompt": "er / sie / es",
+      "answer": "heißt",
+      "explanation": "La raíz termina en ß. Para «er / sie / es»: «heißt».",
+      "block": "heißen"
+    },
+    {
+      "id": "heissen_04",
+      "prompt": "wir",
+      "answer": "heißen",
+      "explanation": "La raíz termina en ß. Para «wir»: «heißen».",
+      "block": "heißen"
+    },
+    {
+      "id": "heissen_05",
+      "prompt": "ihr",
+      "answer": "heißt",
+      "explanation": "La raíz termina en ß. Para «ihr»: «heißt».",
+      "block": "heißen"
+    },
+    {
+      "id": "heissen_06",
+      "prompt": "sie / Sie",
+      "answer": "heißen",
+      "explanation": "La raíz termina en ß. Para «sie / Sie»: «heißen».",
+      "block": "heißen"
+    },
+    {
+      "id": "werden_01",
+      "prompt": "ich",
+      "answer": "werde",
+      "explanation": "Werden es irregular. Para «ich»: «werde».",
+      "block": "werden"
+    },
+    {
+      "id": "werden_02",
+      "prompt": "du",
+      "answer": "wirst",
+      "explanation": "Werden es irregular. Para «du»: «wirst».",
+      "block": "werden"
+    },
+    {
+      "id": "werden_03",
+      "prompt": "er / sie / es",
+      "answer": "wird",
+      "explanation": "Werden es irregular. Para «er / sie / es»: «wird».",
+      "block": "werden"
+    },
+    {
+      "id": "werden_04",
+      "prompt": "wir",
+      "answer": "werden",
+      "explanation": "Werden es irregular. Para «wir»: «werden».",
+      "block": "werden"
+    },
+    {
+      "id": "werden_05",
+      "prompt": "ihr",
+      "answer": "werdet",
+      "explanation": "Werden es irregular. Para «ihr»: «werdet».",
+      "block": "werden"
+    },
+    {
+      "id": "werden_06",
+      "prompt": "sie / Sie",
+      "answer": "werden",
+      "explanation": "Werden es irregular. Para «sie / Sie»: «werden».",
+      "block": "werden"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "title": "Vocabulario: números y datos personales",
+  "description": "Memoriza números y expresiones para dar datos personales.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_num_001",
+      "prompt": "0",
+      "answer": "null",
+      "explanation": "El número 0 se escribe «null».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_002",
+      "prompt": "1",
+      "answer": "eins",
+      "explanation": "El número 1 se escribe «eins».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_003",
+      "prompt": "2",
+      "answer": "zwei",
+      "explanation": "El número 2 se escribe «zwei».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_004",
+      "prompt": "3",
+      "answer": "drei",
+      "explanation": "El número 3 se escribe «drei».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_005",
+      "prompt": "4",
+      "answer": "vier",
+      "explanation": "El número 4 se escribe «vier».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_006",
+      "prompt": "5",
+      "answer": "fünf",
+      "explanation": "El número 5 se escribe «fünf».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_007",
+      "prompt": "6",
+      "answer": "sechs",
+      "explanation": "El número 6 se escribe «sechs».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_008",
+      "prompt": "7",
+      "answer": "sieben",
+      "explanation": "El número 7 se escribe «sieben».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_009",
+      "prompt": "8",
+      "answer": "acht",
+      "explanation": "El número 8 se escribe «acht».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_010",
+      "prompt": "9",
+      "answer": "neun",
+      "explanation": "El número 9 se escribe «neun».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_011",
+      "prompt": "10",
+      "answer": "zehn",
+      "explanation": "El número 10 se escribe «zehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_012",
+      "prompt": "11",
+      "answer": "elf",
+      "explanation": "El número 11 se escribe «elf».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_013",
+      "prompt": "12",
+      "answer": "zwölf",
+      "explanation": "El número 12 se escribe «zwölf».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_014",
+      "prompt": "13",
+      "answer": "dreizehn",
+      "explanation": "El número 13 se escribe «dreizehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_015",
+      "prompt": "14",
+      "answer": "vierzehn",
+      "explanation": "El número 14 se escribe «vierzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_016",
+      "prompt": "15",
+      "answer": "fünfzehn",
+      "explanation": "El número 15 se escribe «fünfzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_017",
+      "prompt": "16",
+      "answer": "sechzehn",
+      "explanation": "El número 16 se escribe «sechzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_018",
+      "prompt": "17",
+      "answer": "siebzehn",
+      "explanation": "El número 17 se escribe «siebzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_019",
+      "prompt": "18",
+      "answer": "achtzehn",
+      "explanation": "El número 18 se escribe «achtzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_020",
+      "prompt": "19",
+      "answer": "neunzehn",
+      "explanation": "El número 19 se escribe «neunzehn».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_021",
+      "prompt": "20",
+      "answer": "zwanzig",
+      "explanation": "El número 20 se escribe «zwanzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_022",
+      "prompt": "21",
+      "answer": "einundzwanzig",
+      "explanation": "El número 21 se escribe «einundzwanzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_023",
+      "prompt": "30",
+      "answer": "dreißig",
+      "explanation": "El número 30 se escribe «dreißig».",
+      "block": "números",
+      "accepted_answers": [
+        "dreißig",
+        "dreissig"
+      ]
+    },
+    {
+      "id": "de_a1_num_024",
+      "prompt": "34",
+      "answer": "vierunddreißig",
+      "explanation": "El número 34 se escribe «vierunddreißig».",
+      "block": "números",
+      "accepted_answers": [
+        "vierunddreißig",
+        "vierunddreissig"
+      ]
+    },
+    {
+      "id": "de_a1_num_025",
+      "prompt": "40",
+      "answer": "vierzig",
+      "explanation": "El número 40 se escribe «vierzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_026",
+      "prompt": "50",
+      "answer": "fünfzig",
+      "explanation": "El número 50 se escribe «fünfzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_027",
+      "prompt": "60",
+      "answer": "sechzig",
+      "explanation": "El número 60 se escribe «sechzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_028",
+      "prompt": "70",
+      "answer": "siebzig",
+      "explanation": "El número 70 se escribe «siebzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_029",
+      "prompt": "80",
+      "answer": "achtzig",
+      "explanation": "El número 80 se escribe «achtzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_030",
+      "prompt": "90",
+      "answer": "neunzig",
+      "explanation": "El número 90 se escribe «neunzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_031",
+      "prompt": "99",
+      "answer": "neunundneunzig",
+      "explanation": "El número 99 se escribe «neunundneunzig».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_num_032",
+      "prompt": "100",
+      "answer": "hundert",
+      "explanation": "El número 100 se escribe «hundert».",
+      "block": "números"
+    },
+    {
+      "id": "de_a1_voc2_033",
+      "prompt": "el nombre",
+      "answer": "der Name",
+      "explanation": "Name es masculino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_034",
+      "prompt": "el nombre de pila",
+      "answer": "der Vorname",
+      "explanation": "Vorname es masculino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_035",
+      "prompt": "el apellido",
+      "answer": "der Familienname",
+      "explanation": "Familienname es masculino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_036",
+      "prompt": "la edad",
+      "answer": "das Alter",
+      "explanation": "Alter es neutro.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_037",
+      "prompt": "la dirección",
+      "answer": "die Adresse",
+      "explanation": "Adresse es femenino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_038",
+      "prompt": "el número de teléfono",
+      "answer": "die Telefonnummer",
+      "explanation": "Telefonnummer es femenino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_039",
+      "prompt": "el número de móvil",
+      "answer": "die Handynummer",
+      "explanation": "Handynummer es femenino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_040",
+      "prompt": "el correo electrónico",
+      "answer": "die E-Mail-Adresse",
+      "explanation": "Expresión habitual.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_041",
+      "prompt": "el país",
+      "answer": "das Land",
+      "explanation": "Land es neutro.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_042",
+      "prompt": "la ciudad",
+      "answer": "die Stadt",
+      "explanation": "Stadt es femenino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_043",
+      "prompt": "la calle",
+      "answer": "die Straße",
+      "explanation": "Straße es femenino.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_044",
+      "prompt": "el código postal",
+      "answer": "die Postleitzahl",
+      "explanation": "Se abrevia PLZ.",
+      "block": "datos personales"
+    },
+    {
+      "id": "de_a1_voc2_045",
+      "prompt": "¿Cuántos años tienes?",
+      "answer": "Wie alt bist du?",
+      "explanation": "La edad se pregunta con wie alt.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie alt bist du?",
+        "Wie alt bist du"
+      ]
+    },
+    {
+      "id": "de_a1_voc2_046",
+      "prompt": "Tengo veinte años",
+      "answer": "Ich bin zwanzig Jahre alt",
+      "explanation": "La edad se expresa con sein.",
+      "block": "preguntas personales"
+    },
+    {
+      "id": "de_a1_voc2_047",
+      "prompt": "¿Cuál es tu número de teléfono?",
+      "answer": "Wie ist deine Telefonnummer?",
+      "explanation": "Pregunta por el teléfono.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie ist deine Telefonnummer?",
+        "Wie ist deine Telefonnummer"
+      ]
+    },
+    {
+      "id": "de_a1_voc2_048",
+      "prompt": "¿Cuál es tu dirección?",
+      "answer": "Wie ist deine Adresse?",
+      "explanation": "Pregunta por la dirección.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie ist deine Adresse?",
+        "Wie ist deine Adresse"
+      ]
+    },
+    {
+      "id": "de_a1_voc2_049",
+      "prompt": "¿Cómo se escribe eso?",
+      "answer": "Wie schreibt man das?",
+      "explanation": "Pregunta por la escritura.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Wie schreibt man das?",
+        "Wie schreibt man das"
+      ]
+    },
+    {
+      "id": "de_a1_voc2_050",
+      "prompt": "¿Puedes deletrearlo?",
+      "answer": "Kannst du das buchstabieren?",
+      "explanation": "Buchstabieren significa deletrear.",
+      "block": "preguntas personales",
+      "accepted_answers": [
+        "Kannst du das buchstabieren?",
+        "Kannst du das buchstabieren"
+      ]
+    }
+  ]
+}

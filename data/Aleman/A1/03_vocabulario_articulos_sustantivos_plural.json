@@ -1,0 +1,273 @@
+{
+  "title": "Vocabulario: artículos, sustantivos y plurales",
+  "description": "Traduce sustantivos con su artículo y plurales frecuentes.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_noun_001",
+      "prompt": "el hombre",
+      "answer": "der Mann",
+      "explanation": "Plural: die Männer.",
+      "block": "personas"
+    },
+    {
+      "id": "de_a1_noun_002",
+      "prompt": "la mujer",
+      "answer": "die Frau",
+      "explanation": "Plural: die Frauen.",
+      "block": "personas"
+    },
+    {
+      "id": "de_a1_noun_003",
+      "prompt": "el niño",
+      "answer": "das Kind",
+      "explanation": "Plural: die Kinder.",
+      "block": "personas"
+    },
+    {
+      "id": "de_a1_noun_004",
+      "prompt": "el amigo",
+      "answer": "der Freund",
+      "explanation": "Plural: die Freunde.",
+      "block": "personas"
+    },
+    {
+      "id": "de_a1_noun_005",
+      "prompt": "la amiga",
+      "answer": "die Freundin",
+      "explanation": "Plural: die Freundinnen.",
+      "block": "personas"
+    },
+    {
+      "id": "de_a1_noun_006",
+      "prompt": "el padre",
+      "answer": "der Vater",
+      "explanation": "Plural: die Väter.",
+      "block": "familia"
+    },
+    {
+      "id": "de_a1_noun_007",
+      "prompt": "la madre",
+      "answer": "die Mutter",
+      "explanation": "Plural: die Mütter.",
+      "block": "familia"
+    },
+    {
+      "id": "de_a1_noun_008",
+      "prompt": "el hermano",
+      "answer": "der Bruder",
+      "explanation": "Plural: die Brüder.",
+      "block": "familia"
+    },
+    {
+      "id": "de_a1_noun_009",
+      "prompt": "la hermana",
+      "answer": "die Schwester",
+      "explanation": "Plural: die Schwestern.",
+      "block": "familia"
+    },
+    {
+      "id": "de_a1_noun_010",
+      "prompt": "los padres",
+      "answer": "die Eltern",
+      "explanation": "Solo plural.",
+      "block": "familia"
+    },
+    {
+      "id": "de_a1_noun_011",
+      "prompt": "la casa",
+      "answer": "das Haus",
+      "explanation": "Plural: die Häuser.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_012",
+      "prompt": "el piso / vivienda",
+      "answer": "die Wohnung",
+      "explanation": "Plural: die Wohnungen.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_013",
+      "prompt": "la habitación",
+      "answer": "das Zimmer",
+      "explanation": "Plural: die Zimmer.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_014",
+      "prompt": "la mesa",
+      "answer": "der Tisch",
+      "explanation": "Plural: die Tische.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_015",
+      "prompt": "la silla",
+      "answer": "der Stuhl",
+      "explanation": "Plural: die Stühle.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_016",
+      "prompt": "la puerta",
+      "answer": "die Tür",
+      "explanation": "Plural: die Türen.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_017",
+      "prompt": "la ventana",
+      "answer": "das Fenster",
+      "explanation": "Plural: die Fenster.",
+      "block": "casa"
+    },
+    {
+      "id": "de_a1_noun_018",
+      "prompt": "el libro",
+      "answer": "das Buch",
+      "explanation": "Plural: die Bücher.",
+      "block": "estudio"
+    },
+    {
+      "id": "de_a1_noun_019",
+      "prompt": "el cuaderno",
+      "answer": "das Heft",
+      "explanation": "Plural: die Hefte.",
+      "block": "estudio"
+    },
+    {
+      "id": "de_a1_noun_020",
+      "prompt": "el bolígrafo",
+      "answer": "der Kugelschreiber",
+      "explanation": "Plural idéntico.",
+      "block": "estudio"
+    },
+    {
+      "id": "de_a1_noun_021",
+      "prompt": "la escuela",
+      "answer": "die Schule",
+      "explanation": "Plural: die Schulen.",
+      "block": "estudio"
+    },
+    {
+      "id": "de_a1_noun_022",
+      "prompt": "el curso",
+      "answer": "der Kurs",
+      "explanation": "Plural: die Kurse.",
+      "block": "estudio"
+    },
+    {
+      "id": "de_a1_noun_023",
+      "prompt": "la manzana",
+      "answer": "der Apfel",
+      "explanation": "Plural: die Äpfel.",
+      "block": "comida"
+    },
+    {
+      "id": "de_a1_noun_024",
+      "prompt": "el pan",
+      "answer": "das Brot",
+      "explanation": "Plural: die Brote.",
+      "block": "comida"
+    },
+    {
+      "id": "de_a1_noun_025",
+      "prompt": "la leche",
+      "answer": "die Milch",
+      "explanation": "Normalmente incontable.",
+      "block": "comida"
+    },
+    {
+      "id": "de_a1_noun_026",
+      "prompt": "el agua",
+      "answer": "das Wasser",
+      "explanation": "Normalmente incontable.",
+      "block": "comida"
+    },
+    {
+      "id": "de_a1_noun_027",
+      "prompt": "el café",
+      "answer": "der Kaffee",
+      "explanation": "Plural posible: die Kaffees.",
+      "block": "comida"
+    },
+    {
+      "id": "de_a1_noun_028",
+      "prompt": "la estación",
+      "answer": "der Bahnhof",
+      "explanation": "Plural: die Bahnhöfe.",
+      "block": "ciudad"
+    },
+    {
+      "id": "de_a1_noun_029",
+      "prompt": "el supermercado",
+      "answer": "der Supermarkt",
+      "explanation": "Plural: die Supermärkte.",
+      "block": "ciudad"
+    },
+    {
+      "id": "de_a1_noun_030",
+      "prompt": "la farmacia",
+      "answer": "die Apotheke",
+      "explanation": "Plural: die Apotheken.",
+      "block": "ciudad"
+    },
+    {
+      "id": "de_a1_noun_031",
+      "prompt": "los hombres",
+      "answer": "die Männer",
+      "explanation": "Plural de der Mann.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_032",
+      "prompt": "las mujeres",
+      "answer": "die Frauen",
+      "explanation": "Plural de die Frau.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_033",
+      "prompt": "los niños",
+      "answer": "die Kinder",
+      "explanation": "Plural de das Kind.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_034",
+      "prompt": "los libros",
+      "answer": "die Bücher",
+      "explanation": "Plural de das Buch.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_035",
+      "prompt": "las casas",
+      "answer": "die Häuser",
+      "explanation": "Plural de das Haus.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_036",
+      "prompt": "las mesas",
+      "answer": "die Tische",
+      "explanation": "Plural de der Tisch.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_037",
+      "prompt": "las sillas",
+      "answer": "die Stühle",
+      "explanation": "Plural de der Stuhl.",
+      "block": "plurales"
+    },
+    {
+      "id": "de_a1_noun_038",
+      "prompt": "las manzanas",
+      "answer": "die Äpfel",
+      "explanation": "Plural de der Apfel.",
+      "block": "plurales"
+    }
+  ]
+}

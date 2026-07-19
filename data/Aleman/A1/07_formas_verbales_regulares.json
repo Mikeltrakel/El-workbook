@@ -1,0 +1,385 @@
+{
+  "title": "Formas verbales: verbos regulares frecuentes",
+  "description": "Memoriza las terminaciones del presente.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "reg_kommen_01",
+      "prompt": "ich",
+      "answer": "komme",
+      "explanation": "Verbo regular. Para «ich»: «komme».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_kommen_02",
+      "prompt": "du",
+      "answer": "kommst",
+      "explanation": "Verbo regular. Para «du»: «kommst».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_kommen_03",
+      "prompt": "er / sie / es",
+      "answer": "kommt",
+      "explanation": "Verbo regular. Para «er / sie / es»: «kommt».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_kommen_04",
+      "prompt": "wir",
+      "answer": "kommen",
+      "explanation": "Verbo regular. Para «wir»: «kommen».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_kommen_05",
+      "prompt": "ihr",
+      "answer": "kommt",
+      "explanation": "Verbo regular. Para «ihr»: «kommt».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_kommen_06",
+      "prompt": "sie / Sie",
+      "answer": "kommen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «kommen».",
+      "block": "kommen"
+    },
+    {
+      "id": "reg_wohnen_01",
+      "prompt": "ich",
+      "answer": "wohne",
+      "explanation": "Verbo regular. Para «ich»: «wohne».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_wohnen_02",
+      "prompt": "du",
+      "answer": "wohnst",
+      "explanation": "Verbo regular. Para «du»: «wohnst».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_wohnen_03",
+      "prompt": "er / sie / es",
+      "answer": "wohnt",
+      "explanation": "Verbo regular. Para «er / sie / es»: «wohnt».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_wohnen_04",
+      "prompt": "wir",
+      "answer": "wohnen",
+      "explanation": "Verbo regular. Para «wir»: «wohnen».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_wohnen_05",
+      "prompt": "ihr",
+      "answer": "wohnt",
+      "explanation": "Verbo regular. Para «ihr»: «wohnt».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_wohnen_06",
+      "prompt": "sie / Sie",
+      "answer": "wohnen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «wohnen».",
+      "block": "wohnen"
+    },
+    {
+      "id": "reg_lernen_01",
+      "prompt": "ich",
+      "answer": "lerne",
+      "explanation": "Verbo regular. Para «ich»: «lerne».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_lernen_02",
+      "prompt": "du",
+      "answer": "lernst",
+      "explanation": "Verbo regular. Para «du»: «lernst».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_lernen_03",
+      "prompt": "er / sie / es",
+      "answer": "lernt",
+      "explanation": "Verbo regular. Para «er / sie / es»: «lernt».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_lernen_04",
+      "prompt": "wir",
+      "answer": "lernen",
+      "explanation": "Verbo regular. Para «wir»: «lernen».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_lernen_05",
+      "prompt": "ihr",
+      "answer": "lernt",
+      "explanation": "Verbo regular. Para «ihr»: «lernt».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_lernen_06",
+      "prompt": "sie / Sie",
+      "answer": "lernen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «lernen».",
+      "block": "lernen"
+    },
+    {
+      "id": "reg_machen_01",
+      "prompt": "ich",
+      "answer": "mache",
+      "explanation": "Verbo regular. Para «ich»: «mache».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_machen_02",
+      "prompt": "du",
+      "answer": "machst",
+      "explanation": "Verbo regular. Para «du»: «machst».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_machen_03",
+      "prompt": "er / sie / es",
+      "answer": "macht",
+      "explanation": "Verbo regular. Para «er / sie / es»: «macht».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_machen_04",
+      "prompt": "wir",
+      "answer": "machen",
+      "explanation": "Verbo regular. Para «wir»: «machen».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_machen_05",
+      "prompt": "ihr",
+      "answer": "macht",
+      "explanation": "Verbo regular. Para «ihr»: «macht».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_machen_06",
+      "prompt": "sie / Sie",
+      "answer": "machen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «machen».",
+      "block": "machen"
+    },
+    {
+      "id": "reg_kaufen_01",
+      "prompt": "ich",
+      "answer": "kaufe",
+      "explanation": "Verbo regular. Para «ich»: «kaufe».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_kaufen_02",
+      "prompt": "du",
+      "answer": "kaufst",
+      "explanation": "Verbo regular. Para «du»: «kaufst».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_kaufen_03",
+      "prompt": "er / sie / es",
+      "answer": "kauft",
+      "explanation": "Verbo regular. Para «er / sie / es»: «kauft».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_kaufen_04",
+      "prompt": "wir",
+      "answer": "kaufen",
+      "explanation": "Verbo regular. Para «wir»: «kaufen».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_kaufen_05",
+      "prompt": "ihr",
+      "answer": "kauft",
+      "explanation": "Verbo regular. Para «ihr»: «kauft».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_kaufen_06",
+      "prompt": "sie / Sie",
+      "answer": "kaufen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «kaufen».",
+      "block": "kaufen"
+    },
+    {
+      "id": "reg_fragen_01",
+      "prompt": "ich",
+      "answer": "frage",
+      "explanation": "Verbo regular. Para «ich»: «frage».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_fragen_02",
+      "prompt": "du",
+      "answer": "fragst",
+      "explanation": "Verbo regular. Para «du»: «fragst».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_fragen_03",
+      "prompt": "er / sie / es",
+      "answer": "fragt",
+      "explanation": "Verbo regular. Para «er / sie / es»: «fragt».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_fragen_04",
+      "prompt": "wir",
+      "answer": "fragen",
+      "explanation": "Verbo regular. Para «wir»: «fragen».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_fragen_05",
+      "prompt": "ihr",
+      "answer": "fragt",
+      "explanation": "Verbo regular. Para «ihr»: «fragt».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_fragen_06",
+      "prompt": "sie / Sie",
+      "answer": "fragen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «fragen».",
+      "block": "fragen"
+    },
+    {
+      "id": "reg_brauchen_01",
+      "prompt": "ich",
+      "answer": "brauche",
+      "explanation": "Verbo regular. Para «ich»: «brauche».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_brauchen_02",
+      "prompt": "du",
+      "answer": "brauchst",
+      "explanation": "Verbo regular. Para «du»: «brauchst».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_brauchen_03",
+      "prompt": "er / sie / es",
+      "answer": "braucht",
+      "explanation": "Verbo regular. Para «er / sie / es»: «braucht».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_brauchen_04",
+      "prompt": "wir",
+      "answer": "brauchen",
+      "explanation": "Verbo regular. Para «wir»: «brauchen».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_brauchen_05",
+      "prompt": "ihr",
+      "answer": "braucht",
+      "explanation": "Verbo regular. Para «ihr»: «braucht».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_brauchen_06",
+      "prompt": "sie / Sie",
+      "answer": "brauchen",
+      "explanation": "Verbo regular. Para «sie / Sie»: «brauchen».",
+      "block": "brauchen"
+    },
+    {
+      "id": "reg_arbeiten_01",
+      "prompt": "ich",
+      "answer": "arbeite",
+      "explanation": "Lleva e de apoyo. Para «ich»: «arbeite».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_arbeiten_02",
+      "prompt": "du",
+      "answer": "arbeitest",
+      "explanation": "Lleva e de apoyo. Para «du»: «arbeitest».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_arbeiten_03",
+      "prompt": "er / sie / es",
+      "answer": "arbeitet",
+      "explanation": "Lleva e de apoyo. Para «er / sie / es»: «arbeitet».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_arbeiten_04",
+      "prompt": "wir",
+      "answer": "arbeiten",
+      "explanation": "Lleva e de apoyo. Para «wir»: «arbeiten».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_arbeiten_05",
+      "prompt": "ihr",
+      "answer": "arbeitet",
+      "explanation": "Lleva e de apoyo. Para «ihr»: «arbeitet».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_arbeiten_06",
+      "prompt": "sie / Sie",
+      "answer": "arbeiten",
+      "explanation": "Lleva e de apoyo. Para «sie / Sie»: «arbeiten».",
+      "block": "arbeiten"
+    },
+    {
+      "id": "reg_antworten_01",
+      "prompt": "ich",
+      "answer": "antworte",
+      "explanation": "Lleva e de apoyo. Para «ich»: «antworte».",
+      "block": "antworten"
+    },
+    {
+      "id": "reg_antworten_02",
+      "prompt": "du",
+      "answer": "antwortest",
+      "explanation": "Lleva e de apoyo. Para «du»: «antwortest».",
+      "block": "antworten"
+    },
+    {
+      "id": "reg_antworten_03",
+      "prompt": "er / sie / es",
+      "answer": "antwortet",
+      "explanation": "Lleva e de apoyo. Para «er / sie / es»: «antwortet».",
+      "block": "antworten"
+    },
+    {
+      "id": "reg_antworten_04",
+      "prompt": "wir",
+      "answer": "antworten",
+      "explanation": "Lleva e de apoyo. Para «wir»: «antworten».",
+      "block": "antworten"
+    },
+    {
+      "id": "reg_antworten_05",
+      "prompt": "ihr",
+      "answer": "antwortet",
+      "explanation": "Lleva e de apoyo. Para «ihr»: «antwortet».",
+      "block": "antworten"
+    },
+    {
+      "id": "reg_antworten_06",
+      "prompt": "sie / Sie",
+      "answer": "antworten",
+      "explanation": "Lleva e de apoyo. Para «sie / Sie»: «antworten».",
+      "block": "antworten"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "title": "Formación de preguntas en alemán",
+  "description": "Traduce preguntas completas y memoriza el orden.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_qdrill_001",
+      "prompt": "¿Cómo te llamas?",
+      "answer": "Wie heißt du?",
+      "explanation": "Wie + verbo + sujeto.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wie heißt du?",
+        "Wie heißt du"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_002",
+      "prompt": "¿De dónde viene usted?",
+      "answer": "Woher kommen Sie?",
+      "explanation": "Pregunta formal.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Woher kommen Sie?",
+        "Woher kommen Sie"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_003",
+      "prompt": "¿Dónde vive ella?",
+      "answer": "Wo wohnt sie?",
+      "explanation": "Wo para lugar fijo.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wo wohnt sie?",
+        "Wo wohnt sie"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_004",
+      "prompt": "¿Adónde vas hoy?",
+      "answer": "Wohin gehst du heute?",
+      "explanation": "Wohin para destino.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wohin gehst du heute?",
+        "Wohin gehst du heute"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_005",
+      "prompt": "¿Qué aprende él?",
+      "answer": "Was lernt er?",
+      "explanation": "Was + verbo + sujeto.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Was lernt er?",
+        "Was lernt er"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_006",
+      "prompt": "¿Cuándo empieza el curso?",
+      "answer": "Wann beginnt der Kurs?",
+      "explanation": "Wann para momento.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wann beginnt der Kurs?",
+        "Wann beginnt der Kurs"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_007",
+      "prompt": "¿Por qué trabajas hoy?",
+      "answer": "Warum arbeitest du heute?",
+      "explanation": "Warum para causa.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Warum arbeitest du heute?",
+        "Warum arbeitest du heute"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_008",
+      "prompt": "¿Quién es la mujer?",
+      "answer": "Wer ist die Frau?",
+      "explanation": "Wer para persona.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wer ist die Frau?",
+        "Wer ist die Frau"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_009",
+      "prompt": "¿Cuánto cuesta el libro?",
+      "answer": "Wie viel kostet das Buch?",
+      "explanation": "Wie viel para precio.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wie viel kostet das Buch?",
+        "Wie viel kostet das Buch"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_010",
+      "prompt": "¿Cuántos hermanos tienes?",
+      "answer": "Wie viele Geschwister hast du?",
+      "explanation": "Wie viele para contables.",
+      "block": "W-Fragen",
+      "accepted_answers": [
+        "Wie viele Geschwister hast du?",
+        "Wie viele Geschwister hast du"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_011",
+      "prompt": "¿Eres de Alemania?",
+      "answer": "Kommst du aus Deutschland?",
+      "explanation": "Verbo primero.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Kommst du aus Deutschland?",
+        "Kommst du aus Deutschland"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_012",
+      "prompt": "¿Hablas inglés?",
+      "answer": "Sprichst du Englisch?",
+      "explanation": "Verbo primero.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Sprichst du Englisch?",
+        "Sprichst du Englisch"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_013",
+      "prompt": "¿Tiene usted tiempo?",
+      "answer": "Haben Sie Zeit?",
+      "explanation": "Pregunta formal.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Haben Sie Zeit?",
+        "Haben Sie Zeit"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_014",
+      "prompt": "¿Trabaja ella en Berlín?",
+      "answer": "Arbeitet sie in Berlin?",
+      "explanation": "Verbo primero.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Arbeitet sie in Berlin?",
+        "Arbeitet sie in Berlin"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_015",
+      "prompt": "¿Leéis el libro?",
+      "answer": "Lest ihr das Buch?",
+      "explanation": "Lesen con ihr: lest.",
+      "block": "sí/no",
+      "accepted_answers": [
+        "Lest ihr das Buch?",
+        "Lest ihr das Buch"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_016",
+      "prompt": "¿Qué haces mañana?",
+      "answer": "Was machst du morgen?",
+      "explanation": "W + verbo + sujeto.",
+      "block": "orden",
+      "accepted_answers": [
+        "Was machst du morgen?",
+        "Was machst du morgen"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_017",
+      "prompt": "¿Dónde compra él el pan?",
+      "answer": "Wo kauft er das Brot?",
+      "explanation": "Verbo en segunda posición.",
+      "block": "orden",
+      "accepted_answers": [
+        "Wo kauft er das Brot?",
+        "Wo kauft er das Brot"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_018",
+      "prompt": "¿Cuándo vais a Madrid?",
+      "answer": "Wann fahrt ihr nach Madrid?",
+      "explanation": "Fahren con ihr: fahrt.",
+      "block": "orden",
+      "accepted_answers": [
+        "Wann fahrt ihr nach Madrid?",
+        "Wann fahrt ihr nach Madrid"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_019",
+      "prompt": "¿Por qué aprende usted alemán?",
+      "answer": "Warum lernen Sie Deutsch?",
+      "explanation": "Forma formal.",
+      "block": "orden",
+      "accepted_answers": [
+        "Warum lernen Sie Deutsch?",
+        "Warum lernen Sie Deutsch"
+      ]
+    },
+    {
+      "id": "de_a1_qdrill_020",
+      "prompt": "¿Cómo se escribe la palabra?",
+      "answer": "Wie schreibt man das Wort?",
+      "explanation": "Man como sujeto impersonal.",
+      "block": "orden",
+      "accepted_answers": [
+        "Wie schreibt man das Wort?",
+        "Wie schreibt man das Wort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Presente de verbos basicos",
+  "description": "Completa la forma verbal que corresponde a cada persona.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "essen_ich",
+      "block": "essen",
+      "prompt": "ich",
+      "answer": "esse",
+      "explanation": "Con 'ich', el verbo 'essen' se conjuga como 'esse'."
+    },
+    {
+      "id": "essen_du",
+      "block": "essen",
+      "prompt": "du",
+      "answer": "isst",
+      "explanation": "Con 'du', 'essen' cambia la vocal y termina en -st: 'isst'."
+    },
+    {
+      "id": "essen_er",
+      "block": "essen",
+      "prompt": "er/sie/es",
+      "answer": "isst",
+      "explanation": "La tercera persona singular de 'essen' tambien es 'isst'."
+    },
+    {
+      "id": "essen_wir",
+      "block": "essen",
+      "prompt": "wir",
+      "answer": "essen",
+      "explanation": "Con 'wir', se usa el infinitivo: 'essen'."
+    },
+    {
+      "id": "haben_ich",
+      "block": "haben",
+      "prompt": "ich",
+      "answer": "habe",
+      "explanation": "Con 'ich', el verbo 'haben' se conjuga como 'habe'."
+    },
+    {
+      "id": "haben_du",
+      "block": "haben",
+      "prompt": "du",
+      "answer": "hast",
+      "explanation": "Con 'du', 'haben' se conjuga como 'hast'."
+    },
+    {
+      "id": "haben_er",
+      "block": "haben",
+      "prompt": "er/sie/es",
+      "answer": "hat",
+      "explanation": "La tercera persona singular de 'haben' es 'hat'."
+    },
+    {
+      "id": "haben_wir",
+      "block": "haben",
+      "prompt": "wir",
+      "answer": "haben",
+      "explanation": "Con 'wir', se usa 'haben'."
+    }
+  ]
+}

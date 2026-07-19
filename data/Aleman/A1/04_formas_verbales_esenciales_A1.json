@@ -1,0 +1,1141 @@
+{
+  "title": "Presente de los verbos esenciales del alemán A1",
+  "description": "Completa las seis formas del presente para cada verbo. Cada bloque corresponde a un verbo e incluye ich, du, er/sie/es, wir, ihr y sie/Sie.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "sein_01",
+      "block": "sein — ser / estar",
+      "prompt": "ich",
+      "answer": "bin",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «ich» se conjuga «bin». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "sein_02",
+      "block": "sein — ser / estar",
+      "prompt": "du",
+      "answer": "bist",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «du» se conjuga «bist». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "sein_03",
+      "block": "sein — ser / estar",
+      "prompt": "er / sie / es",
+      "answer": "ist",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «er / sie / es» se conjuga «ist». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "sein_04",
+      "block": "sein — ser / estar",
+      "prompt": "wir",
+      "answer": "sind",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «wir» se conjuga «sind». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "sein_05",
+      "block": "sein — ser / estar",
+      "prompt": "ihr",
+      "answer": "seid",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «ihr» se conjuga «seid». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "sein_06",
+      "block": "sein — ser / estar",
+      "prompt": "sie / Sie",
+      "answer": "sind",
+      "explanation": "El verbo «sein» significa «ser / estar». Con «sie / Sie» se conjuga «sind». Verbo completamente irregular y esencial para identidad, estado, profesión y descripción."
+    },
+    {
+      "id": "haben_01",
+      "block": "haben — tener",
+      "prompt": "ich",
+      "answer": "habe",
+      "explanation": "El verbo «haben» significa «tener». Con «ich» se conjuga «habe». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "haben_02",
+      "block": "haben — tener",
+      "prompt": "du",
+      "answer": "hast",
+      "explanation": "El verbo «haben» significa «tener». Con «du» se conjuga «hast». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "haben_03",
+      "block": "haben — tener",
+      "prompt": "er / sie / es",
+      "answer": "hat",
+      "explanation": "El verbo «haben» significa «tener». Con «er / sie / es» se conjuga «hat». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "haben_04",
+      "block": "haben — tener",
+      "prompt": "wir",
+      "answer": "haben",
+      "explanation": "El verbo «haben» significa «tener». Con «wir» se conjuga «haben». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "haben_05",
+      "block": "haben — tener",
+      "prompt": "ihr",
+      "answer": "habt",
+      "explanation": "El verbo «haben» significa «tener». Con «ihr» se conjuga «habt». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "haben_06",
+      "block": "haben — tener",
+      "prompt": "sie / Sie",
+      "answer": "haben",
+      "explanation": "El verbo «haben» significa «tener». Con «sie / Sie» se conjuga «haben». Verbo irregular en segunda y tercera persona del singular."
+    },
+    {
+      "id": "heissen_01",
+      "block": "heißen — llamarse",
+      "prompt": "ich",
+      "answer": "heiße",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «ich» se conjuga «heiße». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "heissen_02",
+      "block": "heißen — llamarse",
+      "prompt": "du",
+      "answer": "heißt",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «du» se conjuga «heißt». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "heissen_03",
+      "block": "heißen — llamarse",
+      "prompt": "er / sie / es",
+      "answer": "heißt",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «er / sie / es» se conjuga «heißt». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "heissen_04",
+      "block": "heißen — llamarse",
+      "prompt": "wir",
+      "answer": "heißen",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «wir» se conjuga «heißen». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "heissen_05",
+      "block": "heißen — llamarse",
+      "prompt": "ihr",
+      "answer": "heißt",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «ihr» se conjuga «heißt». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "heissen_06",
+      "block": "heißen — llamarse",
+      "prompt": "sie / Sie",
+      "answer": "heißen",
+      "explanation": "El verbo «heißen» significa «llamarse». Con «sie / Sie» se conjuga «heißen». Se utiliza principalmente para decir o preguntar el nombre."
+    },
+    {
+      "id": "kommen_01",
+      "block": "kommen — venir",
+      "prompt": "ich",
+      "answer": "komme",
+      "explanation": "El verbo «kommen» significa «venir». Con «ich» se conjuga «komme». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "kommen_02",
+      "block": "kommen — venir",
+      "prompt": "du",
+      "answer": "kommst",
+      "explanation": "El verbo «kommen» significa «venir». Con «du» se conjuga «kommst». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "kommen_03",
+      "block": "kommen — venir",
+      "prompt": "er / sie / es",
+      "answer": "kommt",
+      "explanation": "El verbo «kommen» significa «venir». Con «er / sie / es» se conjuga «kommt». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "kommen_04",
+      "block": "kommen — venir",
+      "prompt": "wir",
+      "answer": "kommen",
+      "explanation": "El verbo «kommen» significa «venir». Con «wir» se conjuga «kommen». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "kommen_05",
+      "block": "kommen — venir",
+      "prompt": "ihr",
+      "answer": "kommt",
+      "explanation": "El verbo «kommen» significa «venir». Con «ihr» se conjuga «kommt». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "kommen_06",
+      "block": "kommen — venir",
+      "prompt": "sie / Sie",
+      "answer": "kommen",
+      "explanation": "El verbo «kommen» significa «venir». Con «sie / Sie» se conjuga «kommen». Verbo regular muy frecuente para hablar de procedencia y movimiento."
+    },
+    {
+      "id": "wohnen_01",
+      "block": "wohnen — vivir / residir",
+      "prompt": "ich",
+      "answer": "wohne",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «ich» se conjuga «wohne». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "wohnen_02",
+      "block": "wohnen — vivir / residir",
+      "prompt": "du",
+      "answer": "wohnst",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «du» se conjuga «wohnst». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "wohnen_03",
+      "block": "wohnen — vivir / residir",
+      "prompt": "er / sie / es",
+      "answer": "wohnt",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «er / sie / es» se conjuga «wohnt». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "wohnen_04",
+      "block": "wohnen — vivir / residir",
+      "prompt": "wir",
+      "answer": "wohnen",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «wir» se conjuga «wohnen». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "wohnen_05",
+      "block": "wohnen — vivir / residir",
+      "prompt": "ihr",
+      "answer": "wohnt",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «ihr» se conjuga «wohnt». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "wohnen_06",
+      "block": "wohnen — vivir / residir",
+      "prompt": "sie / Sie",
+      "answer": "wohnen",
+      "explanation": "El verbo «wohnen» significa «vivir / residir». Con «sie / Sie» se conjuga «wohnen». Verbo regular usado para indicar el lugar de residencia."
+    },
+    {
+      "id": "machen_01",
+      "block": "machen — hacer",
+      "prompt": "ich",
+      "answer": "mache",
+      "explanation": "El verbo «machen» significa «hacer». Con «ich» se conjuga «mache». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "machen_02",
+      "block": "machen — hacer",
+      "prompt": "du",
+      "answer": "machst",
+      "explanation": "El verbo «machen» significa «hacer». Con «du» se conjuga «machst». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "machen_03",
+      "block": "machen — hacer",
+      "prompt": "er / sie / es",
+      "answer": "macht",
+      "explanation": "El verbo «machen» significa «hacer». Con «er / sie / es» se conjuga «macht». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "machen_04",
+      "block": "machen — hacer",
+      "prompt": "wir",
+      "answer": "machen",
+      "explanation": "El verbo «machen» significa «hacer». Con «wir» se conjuga «machen». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "machen_05",
+      "block": "machen — hacer",
+      "prompt": "ihr",
+      "answer": "macht",
+      "explanation": "El verbo «machen» significa «hacer». Con «ihr» se conjuga «macht». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "machen_06",
+      "block": "machen — hacer",
+      "prompt": "sie / Sie",
+      "answer": "machen",
+      "explanation": "El verbo «machen» significa «hacer». Con «sie / Sie» se conjuga «machen». Verbo regular de uso muy amplio."
+    },
+    {
+      "id": "lernen_01",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "ich",
+      "answer": "lerne",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «ich» se conjuga «lerne». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "lernen_02",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "du",
+      "answer": "lernst",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «du» se conjuga «lernst». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "lernen_03",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "er / sie / es",
+      "answer": "lernt",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «er / sie / es» se conjuga «lernt». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "lernen_04",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "wir",
+      "answer": "lernen",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «wir» se conjuga «lernen». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "lernen_05",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "ihr",
+      "answer": "lernt",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «ihr» se conjuga «lernt». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "lernen_06",
+      "block": "lernen — aprender / estudiar",
+      "prompt": "sie / Sie",
+      "answer": "lernen",
+      "explanation": "El verbo «lernen» significa «aprender / estudiar». Con «sie / Sie» se conjuga «lernen». Verbo regular básico para hablar del aprendizaje."
+    },
+    {
+      "id": "arbeiten_01",
+      "block": "arbeiten — trabajar",
+      "prompt": "ich",
+      "answer": "arbeite",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «ich» se conjuga «arbeite». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "arbeiten_02",
+      "block": "arbeiten — trabajar",
+      "prompt": "du",
+      "answer": "arbeitest",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «du» se conjuga «arbeitest». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "arbeiten_03",
+      "block": "arbeiten — trabajar",
+      "prompt": "er / sie / es",
+      "answer": "arbeitet",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «er / sie / es» se conjuga «arbeitet». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "arbeiten_04",
+      "block": "arbeiten — trabajar",
+      "prompt": "wir",
+      "answer": "arbeiten",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «wir» se conjuga «arbeiten». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "arbeiten_05",
+      "block": "arbeiten — trabajar",
+      "prompt": "ihr",
+      "answer": "arbeitet",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «ihr» se conjuga «arbeitet». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "arbeiten_06",
+      "block": "arbeiten — trabajar",
+      "prompt": "sie / Sie",
+      "answer": "arbeiten",
+      "explanation": "El verbo «arbeiten» significa «trabajar». Con «sie / Sie» se conjuga «arbeiten». Añade una e de apoyo en du, er/sie/es e ihr por terminar la raíz en -t."
+    },
+    {
+      "id": "sprechen_01",
+      "block": "sprechen — hablar",
+      "prompt": "ich",
+      "answer": "spreche",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «ich» se conjuga «spreche». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "sprechen_02",
+      "block": "sprechen — hablar",
+      "prompt": "du",
+      "answer": "sprichst",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «du» se conjuga «sprichst». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "sprechen_03",
+      "block": "sprechen — hablar",
+      "prompt": "er / sie / es",
+      "answer": "spricht",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «er / sie / es» se conjuga «spricht». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "sprechen_04",
+      "block": "sprechen — hablar",
+      "prompt": "wir",
+      "answer": "sprechen",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «wir» se conjuga «sprechen». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "sprechen_05",
+      "block": "sprechen — hablar",
+      "prompt": "ihr",
+      "answer": "sprecht",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «ihr» se conjuga «sprecht». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "sprechen_06",
+      "block": "sprechen — hablar",
+      "prompt": "sie / Sie",
+      "answer": "sprechen",
+      "explanation": "El verbo «sprechen» significa «hablar». Con «sie / Sie» se conjuga «sprechen». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "lesen_01",
+      "block": "lesen — leer",
+      "prompt": "ich",
+      "answer": "lese",
+      "explanation": "El verbo «lesen» significa «leer». Con «ich» se conjuga «lese». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "lesen_02",
+      "block": "lesen — leer",
+      "prompt": "du",
+      "answer": "liest",
+      "explanation": "El verbo «lesen» significa «leer». Con «du» se conjuga «liest». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "lesen_03",
+      "block": "lesen — leer",
+      "prompt": "er / sie / es",
+      "answer": "liest",
+      "explanation": "El verbo «lesen» significa «leer». Con «er / sie / es» se conjuga «liest». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "lesen_04",
+      "block": "lesen — leer",
+      "prompt": "wir",
+      "answer": "lesen",
+      "explanation": "El verbo «lesen» significa «leer». Con «wir» se conjuga «lesen». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "lesen_05",
+      "block": "lesen — leer",
+      "prompt": "ihr",
+      "answer": "lest",
+      "explanation": "El verbo «lesen» significa «leer». Con «ihr» se conjuga «lest». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "lesen_06",
+      "block": "lesen — leer",
+      "prompt": "sie / Sie",
+      "answer": "lesen",
+      "explanation": "El verbo «lesen» significa «leer». Con «sie / Sie» se conjuga «lesen». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_01",
+      "block": "sehen — ver",
+      "prompt": "ich",
+      "answer": "sehe",
+      "explanation": "El verbo «sehen» significa «ver». Con «ich» se conjuga «sehe». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_02",
+      "block": "sehen — ver",
+      "prompt": "du",
+      "answer": "siehst",
+      "explanation": "El verbo «sehen» significa «ver». Con «du» se conjuga «siehst». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_03",
+      "block": "sehen — ver",
+      "prompt": "er / sie / es",
+      "answer": "sieht",
+      "explanation": "El verbo «sehen» significa «ver». Con «er / sie / es» se conjuga «sieht». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_04",
+      "block": "sehen — ver",
+      "prompt": "wir",
+      "answer": "sehen",
+      "explanation": "El verbo «sehen» significa «ver». Con «wir» se conjuga «sehen». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_05",
+      "block": "sehen — ver",
+      "prompt": "ihr",
+      "answer": "seht",
+      "explanation": "El verbo «sehen» significa «ver». Con «ihr» se conjuga «seht». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "sehen_06",
+      "block": "sehen — ver",
+      "prompt": "sie / Sie",
+      "answer": "sehen",
+      "explanation": "El verbo «sehen» significa «ver». Con «sie / Sie» se conjuga «sehen». Cambia e → ie en du y er/sie/es."
+    },
+    {
+      "id": "essen_01",
+      "block": "essen — comer",
+      "prompt": "ich",
+      "answer": "esse",
+      "explanation": "El verbo «essen» significa «comer». Con «ich» se conjuga «esse». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "essen_02",
+      "block": "essen — comer",
+      "prompt": "du",
+      "answer": "isst",
+      "explanation": "El verbo «essen» significa «comer». Con «du» se conjuga «isst». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "essen_03",
+      "block": "essen — comer",
+      "prompt": "er / sie / es",
+      "answer": "isst",
+      "explanation": "El verbo «essen» significa «comer». Con «er / sie / es» se conjuga «isst». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "essen_04",
+      "block": "essen — comer",
+      "prompt": "wir",
+      "answer": "essen",
+      "explanation": "El verbo «essen» significa «comer». Con «wir» se conjuga «essen». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "essen_05",
+      "block": "essen — comer",
+      "prompt": "ihr",
+      "answer": "esst",
+      "explanation": "El verbo «essen» significa «comer». Con «ihr» se conjuga «esst». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "essen_06",
+      "block": "essen — comer",
+      "prompt": "sie / Sie",
+      "answer": "essen",
+      "explanation": "El verbo «essen» significa «comer». Con «sie / Sie» se conjuga «essen». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "trinken_01",
+      "block": "trinken — beber",
+      "prompt": "ich",
+      "answer": "trinke",
+      "explanation": "El verbo «trinken» significa «beber». Con «ich» se conjuga «trinke». En presente sigue el patrón regular."
+    },
+    {
+      "id": "trinken_02",
+      "block": "trinken — beber",
+      "prompt": "du",
+      "answer": "trinkst",
+      "explanation": "El verbo «trinken» significa «beber». Con «du» se conjuga «trinkst». En presente sigue el patrón regular."
+    },
+    {
+      "id": "trinken_03",
+      "block": "trinken — beber",
+      "prompt": "er / sie / es",
+      "answer": "trinkt",
+      "explanation": "El verbo «trinken» significa «beber». Con «er / sie / es» se conjuga «trinkt». En presente sigue el patrón regular."
+    },
+    {
+      "id": "trinken_04",
+      "block": "trinken — beber",
+      "prompt": "wir",
+      "answer": "trinken",
+      "explanation": "El verbo «trinken» significa «beber». Con «wir» se conjuga «trinken». En presente sigue el patrón regular."
+    },
+    {
+      "id": "trinken_05",
+      "block": "trinken — beber",
+      "prompt": "ihr",
+      "answer": "trinkt",
+      "explanation": "El verbo «trinken» significa «beber». Con «ihr» se conjuga «trinkt». En presente sigue el patrón regular."
+    },
+    {
+      "id": "trinken_06",
+      "block": "trinken — beber",
+      "prompt": "sie / Sie",
+      "answer": "trinken",
+      "explanation": "El verbo «trinken» significa «beber». Con «sie / Sie» se conjuga «trinken». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_01",
+      "block": "gehen — ir",
+      "prompt": "ich",
+      "answer": "gehe",
+      "explanation": "El verbo «gehen» significa «ir». Con «ich» se conjuga «gehe». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_02",
+      "block": "gehen — ir",
+      "prompt": "du",
+      "answer": "gehst",
+      "explanation": "El verbo «gehen» significa «ir». Con «du» se conjuga «gehst». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_03",
+      "block": "gehen — ir",
+      "prompt": "er / sie / es",
+      "answer": "geht",
+      "explanation": "El verbo «gehen» significa «ir». Con «er / sie / es» se conjuga «geht». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_04",
+      "block": "gehen — ir",
+      "prompt": "wir",
+      "answer": "gehen",
+      "explanation": "El verbo «gehen» significa «ir». Con «wir» se conjuga «gehen». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_05",
+      "block": "gehen — ir",
+      "prompt": "ihr",
+      "answer": "geht",
+      "explanation": "El verbo «gehen» significa «ir». Con «ihr» se conjuga «geht». En presente sigue el patrón regular."
+    },
+    {
+      "id": "gehen_06",
+      "block": "gehen — ir",
+      "prompt": "sie / Sie",
+      "answer": "gehen",
+      "explanation": "El verbo «gehen» significa «ir». Con «sie / Sie» se conjuga «gehen». En presente sigue el patrón regular."
+    },
+    {
+      "id": "fahren_01",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "ich",
+      "answer": "fahre",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «ich» se conjuga «fahre». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "fahren_02",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "du",
+      "answer": "fährst",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «du» se conjuga «fährst». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "fahren_03",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "er / sie / es",
+      "answer": "fährt",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «er / sie / es» se conjuga «fährt». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "fahren_04",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "wir",
+      "answer": "fahren",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «wir» se conjuga «fahren». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "fahren_05",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "ihr",
+      "answer": "fahrt",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «ihr» se conjuga «fahrt». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "fahren_06",
+      "block": "fahren — ir en vehículo / conducir",
+      "prompt": "sie / Sie",
+      "answer": "fahren",
+      "explanation": "El verbo «fahren» significa «ir en vehículo / conducir». Con «sie / Sie» se conjuga «fahren». Cambia a → ä en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_01",
+      "block": "nehmen — tomar / coger",
+      "prompt": "ich",
+      "answer": "nehme",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «ich» se conjuga «nehme». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_02",
+      "block": "nehmen — tomar / coger",
+      "prompt": "du",
+      "answer": "nimmst",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «du» se conjuga «nimmst». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_03",
+      "block": "nehmen — tomar / coger",
+      "prompt": "er / sie / es",
+      "answer": "nimmt",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «er / sie / es» se conjuga «nimmt». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_04",
+      "block": "nehmen — tomar / coger",
+      "prompt": "wir",
+      "answer": "nehmen",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «wir» se conjuga «nehmen». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_05",
+      "block": "nehmen — tomar / coger",
+      "prompt": "ihr",
+      "answer": "nehmt",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «ihr» se conjuga «nehmt». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "nehmen_06",
+      "block": "nehmen — tomar / coger",
+      "prompt": "sie / Sie",
+      "answer": "nehmen",
+      "explanation": "El verbo «nehmen» significa «tomar / coger». Con «sie / Sie» se conjuga «nehmen». Cambia e → i y modifica la raíz en du y er/sie/es."
+    },
+    {
+      "id": "geben_01",
+      "block": "geben — dar",
+      "prompt": "ich",
+      "answer": "gebe",
+      "explanation": "El verbo «geben» significa «dar». Con «ich» se conjuga «gebe». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "geben_02",
+      "block": "geben — dar",
+      "prompt": "du",
+      "answer": "gibst",
+      "explanation": "El verbo «geben» significa «dar». Con «du» se conjuga «gibst». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "geben_03",
+      "block": "geben — dar",
+      "prompt": "er / sie / es",
+      "answer": "gibt",
+      "explanation": "El verbo «geben» significa «dar». Con «er / sie / es» se conjuga «gibt». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "geben_04",
+      "block": "geben — dar",
+      "prompt": "wir",
+      "answer": "geben",
+      "explanation": "El verbo «geben» significa «dar». Con «wir» se conjuga «geben». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "geben_05",
+      "block": "geben — dar",
+      "prompt": "ihr",
+      "answer": "gebt",
+      "explanation": "El verbo «geben» significa «dar». Con «ihr» se conjuga «gebt». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "geben_06",
+      "block": "geben — dar",
+      "prompt": "sie / Sie",
+      "answer": "geben",
+      "explanation": "El verbo «geben» significa «dar». Con «sie / Sie» se conjuga «geben». Cambia e → i en du y er/sie/es."
+    },
+    {
+      "id": "finden_01",
+      "block": "finden — encontrar / opinar",
+      "prompt": "ich",
+      "answer": "finde",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «ich» se conjuga «finde». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "finden_02",
+      "block": "finden — encontrar / opinar",
+      "prompt": "du",
+      "answer": "findest",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «du» se conjuga «findest». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "finden_03",
+      "block": "finden — encontrar / opinar",
+      "prompt": "er / sie / es",
+      "answer": "findet",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «er / sie / es» se conjuga «findet». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "finden_04",
+      "block": "finden — encontrar / opinar",
+      "prompt": "wir",
+      "answer": "finden",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «wir» se conjuga «finden». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "finden_05",
+      "block": "finden — encontrar / opinar",
+      "prompt": "ihr",
+      "answer": "findet",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «ihr» se conjuga «findet». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "finden_06",
+      "block": "finden — encontrar / opinar",
+      "prompt": "sie / Sie",
+      "answer": "finden",
+      "explanation": "El verbo «finden» significa «encontrar / opinar». Con «sie / Sie» se conjuga «finden». Añade una e de apoyo en varias formas."
+    },
+    {
+      "id": "kaufen_01",
+      "block": "kaufen — comprar",
+      "prompt": "ich",
+      "answer": "kaufe",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «ich» se conjuga «kaufe». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "kaufen_02",
+      "block": "kaufen — comprar",
+      "prompt": "du",
+      "answer": "kaufst",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «du» se conjuga «kaufst». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "kaufen_03",
+      "block": "kaufen — comprar",
+      "prompt": "er / sie / es",
+      "answer": "kauft",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «er / sie / es» se conjuga «kauft». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "kaufen_04",
+      "block": "kaufen — comprar",
+      "prompt": "wir",
+      "answer": "kaufen",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «wir» se conjuga «kaufen». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "kaufen_05",
+      "block": "kaufen — comprar",
+      "prompt": "ihr",
+      "answer": "kauft",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «ihr» se conjuga «kauft». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "kaufen_06",
+      "block": "kaufen — comprar",
+      "prompt": "sie / Sie",
+      "answer": "kaufen",
+      "explanation": "El verbo «kaufen» significa «comprar». Con «sie / Sie» se conjuga «kaufen». Verbo regular frecuente en situaciones de compra."
+    },
+    {
+      "id": "brauchen_01",
+      "block": "brauchen — necesitar",
+      "prompt": "ich",
+      "answer": "brauche",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «ich» se conjuga «brauche». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "brauchen_02",
+      "block": "brauchen — necesitar",
+      "prompt": "du",
+      "answer": "brauchst",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «du» se conjuga «brauchst». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "brauchen_03",
+      "block": "brauchen — necesitar",
+      "prompt": "er / sie / es",
+      "answer": "braucht",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «er / sie / es» se conjuga «braucht». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "brauchen_04",
+      "block": "brauchen — necesitar",
+      "prompt": "wir",
+      "answer": "brauchen",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «wir» se conjuga «brauchen». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "brauchen_05",
+      "block": "brauchen — necesitar",
+      "prompt": "ihr",
+      "answer": "braucht",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «ihr» se conjuga «braucht». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "brauchen_06",
+      "block": "brauchen — necesitar",
+      "prompt": "sie / Sie",
+      "answer": "brauchen",
+      "explanation": "El verbo «brauchen» significa «necesitar». Con «sie / Sie» se conjuga «brauchen». Verbo regular muy útil para expresar necesidad."
+    },
+    {
+      "id": "moegen_01",
+      "block": "mögen — gustar",
+      "prompt": "ich",
+      "answer": "mag",
+      "explanation": "El verbo «mögen» significa «gustar». Con «ich» se conjuga «mag». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "moegen_02",
+      "block": "mögen — gustar",
+      "prompt": "du",
+      "answer": "magst",
+      "explanation": "El verbo «mögen» significa «gustar». Con «du» se conjuga «magst». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "moegen_03",
+      "block": "mögen — gustar",
+      "prompt": "er / sie / es",
+      "answer": "mag",
+      "explanation": "El verbo «mögen» significa «gustar». Con «er / sie / es» se conjuga «mag». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "moegen_04",
+      "block": "mögen — gustar",
+      "prompt": "wir",
+      "answer": "mögen",
+      "explanation": "El verbo «mögen» significa «gustar». Con «wir» se conjuga «mögen». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "moegen_05",
+      "block": "mögen — gustar",
+      "prompt": "ihr",
+      "answer": "mögt",
+      "explanation": "El verbo «mögen» significa «gustar». Con «ihr» se conjuga «mögt». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "moegen_06",
+      "block": "mögen — gustar",
+      "prompt": "sie / Sie",
+      "answer": "mögen",
+      "explanation": "El verbo «mögen» significa «gustar». Con «sie / Sie» se conjuga «mögen». Verbo irregular; en singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_01",
+      "block": "können — poder / saber hacer",
+      "prompt": "ich",
+      "answer": "kann",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «ich» se conjuga «kann». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_02",
+      "block": "können — poder / saber hacer",
+      "prompt": "du",
+      "answer": "kannst",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «du» se conjuga «kannst». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_03",
+      "block": "können — poder / saber hacer",
+      "prompt": "er / sie / es",
+      "answer": "kann",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «er / sie / es» se conjuga «kann». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_04",
+      "block": "können — poder / saber hacer",
+      "prompt": "wir",
+      "answer": "können",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «wir» se conjuga «können». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_05",
+      "block": "können — poder / saber hacer",
+      "prompt": "ihr",
+      "answer": "könnt",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «ihr» se conjuga «könnt». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "koennen_06",
+      "block": "können — poder / saber hacer",
+      "prompt": "sie / Sie",
+      "answer": "können",
+      "explanation": "El verbo «können» significa «poder / saber hacer». Con «sie / Sie» se conjuga «können». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_01",
+      "block": "müssen — tener que",
+      "prompt": "ich",
+      "answer": "muss",
+      "explanation": "El verbo «müssen» significa «tener que». Con «ich» se conjuga «muss». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_02",
+      "block": "müssen — tener que",
+      "prompt": "du",
+      "answer": "musst",
+      "explanation": "El verbo «müssen» significa «tener que». Con «du» se conjuga «musst». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_03",
+      "block": "müssen — tener que",
+      "prompt": "er / sie / es",
+      "answer": "muss",
+      "explanation": "El verbo «müssen» significa «tener que». Con «er / sie / es» se conjuga «muss». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_04",
+      "block": "müssen — tener que",
+      "prompt": "wir",
+      "answer": "müssen",
+      "explanation": "El verbo «müssen» significa «tener que». Con «wir» se conjuga «müssen». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_05",
+      "block": "müssen — tener que",
+      "prompt": "ihr",
+      "answer": "müsst",
+      "explanation": "El verbo «müssen» significa «tener que». Con «ihr» se conjuga «müsst». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "muessen_06",
+      "block": "müssen — tener que",
+      "prompt": "sie / Sie",
+      "answer": "müssen",
+      "explanation": "El verbo «müssen» significa «tener que». Con «sie / Sie» se conjuga «müssen». Verbo modal irregular; el singular pierde la diéresis."
+    },
+    {
+      "id": "wollen_01",
+      "block": "wollen — querer",
+      "prompt": "ich",
+      "answer": "will",
+      "explanation": "El verbo «wollen» significa «querer». Con «ich» se conjuga «will». Verbo modal irregular."
+    },
+    {
+      "id": "wollen_02",
+      "block": "wollen — querer",
+      "prompt": "du",
+      "answer": "willst",
+      "explanation": "El verbo «wollen» significa «querer». Con «du» se conjuga «willst». Verbo modal irregular."
+    },
+    {
+      "id": "wollen_03",
+      "block": "wollen — querer",
+      "prompt": "er / sie / es",
+      "answer": "will",
+      "explanation": "El verbo «wollen» significa «querer». Con «er / sie / es» se conjuga «will». Verbo modal irregular."
+    },
+    {
+      "id": "wollen_04",
+      "block": "wollen — querer",
+      "prompt": "wir",
+      "answer": "wollen",
+      "explanation": "El verbo «wollen» significa «querer». Con «wir» se conjuga «wollen». Verbo modal irregular."
+    },
+    {
+      "id": "wollen_05",
+      "block": "wollen — querer",
+      "prompt": "ihr",
+      "answer": "wollt",
+      "explanation": "El verbo «wollen» significa «querer». Con «ihr» se conjuga «wollt». Verbo modal irregular."
+    },
+    {
+      "id": "wollen_06",
+      "block": "wollen — querer",
+      "prompt": "sie / Sie",
+      "answer": "wollen",
+      "explanation": "El verbo «wollen» significa «querer». Con «sie / Sie» se conjuga «wollen». Verbo modal irregular."
+    },
+    {
+      "id": "duerfen_01",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "ich",
+      "answer": "darf",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «ich» se conjuga «darf». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "duerfen_02",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "du",
+      "answer": "darfst",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «du» se conjuga «darfst». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "duerfen_03",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "er / sie / es",
+      "answer": "darf",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «er / sie / es» se conjuga «darf». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "duerfen_04",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "wir",
+      "answer": "dürfen",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «wir» se conjuga «dürfen». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "duerfen_05",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "ihr",
+      "answer": "dürft",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «ihr» se conjuga «dürft». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "duerfen_06",
+      "block": "dürfen — poder / tener permiso",
+      "prompt": "sie / Sie",
+      "answer": "dürfen",
+      "explanation": "El verbo «dürfen» significa «poder / tener permiso». Con «sie / Sie» se conjuga «dürfen». Verbo modal irregular; el singular cambia a darf-."
+    },
+    {
+      "id": "moechten_01",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "ich",
+      "answer": "möchte",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «ich» se conjuga «möchte». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "moechten_02",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "du",
+      "answer": "möchtest",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «du» se conjuga «möchtest». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "moechten_03",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "er / sie / es",
+      "answer": "möchte",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «er / sie / es» se conjuga «möchte». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "moechten_04",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "wir",
+      "answer": "möchten",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «wir» se conjuga «möchten». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "moechten_05",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "ihr",
+      "answer": "möchtet",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «ihr» se conjuga «möchtet». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "moechten_06",
+      "block": "möchten — quisiera / gustaría",
+      "prompt": "sie / Sie",
+      "answer": "möchten",
+      "explanation": "El verbo «möchten» significa «quisiera / gustaría». Con «sie / Sie» se conjuga «möchten». Forma cortés muy frecuente para pedir o expresar deseos."
+    },
+    {
+      "id": "wissen_01",
+      "block": "wissen — saber",
+      "prompt": "ich",
+      "answer": "weiß",
+      "explanation": "El verbo «wissen» significa «saber». Con «ich» se conjuga «weiß». Verbo irregular; las formas del singular presentan weiß-."
+    },
+    {
+      "id": "wissen_02",
+      "block": "wissen — saber",
+      "prompt": "du",
+      "answer": "weißt",
+      "explanation": "El verbo «wissen» significa «saber». Con «du» se conjuga «weißt». Verbo irregular; las formas del singular presentan weiß-."
+    },
+    {
+      "id": "wissen_03",
+      "block": "wissen — saber",
+      "prompt": "er / sie / es",
+      "answer": "weiß",
+      "explanation": "El verbo «wissen» significa «saber». Con «er / sie / es» se conjuga «weiß». Verbo irregular; las formas del singular presentan weiß-."
+    },
+    {
+      "id": "wissen_04",
+      "block": "wissen — saber",
+      "prompt": "wir",
+      "answer": "wissen",
+      "explanation": "El verbo «wissen» significa «saber». Con «wir» se conjuga «wissen». Verbo irregular; las formas del singular presentan weiß-."
+    },
+    {
+      "id": "wissen_05",
+      "block": "wissen — saber",
+      "prompt": "ihr",
+      "answer": "wisst",
+      "explanation": "El verbo «wissen» significa «saber». Con «ihr» se conjuga «wisst». Verbo irregular; las formas del singular presentan weiß-."
+    },
+    {
+      "id": "wissen_06",
+      "block": "wissen — saber",
+      "prompt": "sie / Sie",
+      "answer": "wissen",
+      "explanation": "El verbo «wissen» significa «saber». Con «sie / Sie» se conjuga «wissen». Verbo irregular; las formas del singular presentan weiß-."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "title": "Vocabulario: verbos básicos",
+  "description": "Traduce los verbos más importantes antes de conjugarlos.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_verbvoc_001",
+      "prompt": "ser / estar",
+      "answer": "sein",
+      "explanation": "Verbo fundamental irregular.",
+      "block": "verbos esenciales"
+    },
+    {
+      "id": "de_a1_verbvoc_002",
+      "prompt": "tener",
+      "answer": "haben",
+      "explanation": "Verbo fundamental irregular.",
+      "block": "verbos esenciales"
+    },
+    {
+      "id": "de_a1_verbvoc_003",
+      "prompt": "llamarse",
+      "answer": "heißen",
+      "explanation": "Se usa para decir el nombre.",
+      "block": "verbos esenciales"
+    },
+    {
+      "id": "de_a1_verbvoc_004",
+      "prompt": "venir",
+      "answer": "kommen",
+      "explanation": "Verbo frecuente.",
+      "block": "movimiento y residencia"
+    },
+    {
+      "id": "de_a1_verbvoc_005",
+      "prompt": "vivir / residir",
+      "answer": "wohnen",
+      "explanation": "Lugar de residencia.",
+      "block": "movimiento y residencia"
+    },
+    {
+      "id": "de_a1_verbvoc_006",
+      "prompt": "ir",
+      "answer": "gehen",
+      "explanation": "Movimiento general.",
+      "block": "movimiento y residencia"
+    },
+    {
+      "id": "de_a1_verbvoc_007",
+      "prompt": "ir en vehículo / conducir",
+      "answer": "fahren",
+      "explanation": "Movimiento con vehículo.",
+      "block": "movimiento y residencia"
+    },
+    {
+      "id": "de_a1_verbvoc_008",
+      "prompt": "aprender",
+      "answer": "lernen",
+      "explanation": "Verbo regular.",
+      "block": "aprendizaje"
+    },
+    {
+      "id": "de_a1_verbvoc_009",
+      "prompt": "hablar",
+      "answer": "sprechen",
+      "explanation": "Cambio e→i en singular.",
+      "block": "aprendizaje"
+    },
+    {
+      "id": "de_a1_verbvoc_010",
+      "prompt": "leer",
+      "answer": "lesen",
+      "explanation": "Cambio e→ie en singular.",
+      "block": "aprendizaje"
+    },
+    {
+      "id": "de_a1_verbvoc_011",
+      "prompt": "escribir",
+      "answer": "schreiben",
+      "explanation": "Verbo frecuente.",
+      "block": "aprendizaje"
+    },
+    {
+      "id": "de_a1_verbvoc_012",
+      "prompt": "trabajar",
+      "answer": "arbeiten",
+      "explanation": "Lleva e de apoyo.",
+      "block": "vida diaria"
+    },
+    {
+      "id": "de_a1_verbvoc_013",
+      "prompt": "hacer",
+      "answer": "machen",
+      "explanation": "Verbo regular.",
+      "block": "vida diaria"
+    },
+    {
+      "id": "de_a1_verbvoc_014",
+      "prompt": "comprar",
+      "answer": "kaufen",
+      "explanation": "Verbo regular.",
+      "block": "vida diaria"
+    },
+    {
+      "id": "de_a1_verbvoc_015",
+      "prompt": "beber",
+      "answer": "trinken",
+      "explanation": "Presente regular.",
+      "block": "vida diaria"
+    },
+    {
+      "id": "de_a1_verbvoc_016",
+      "prompt": "comer",
+      "answer": "essen",
+      "explanation": "Formas isst.",
+      "block": "vida diaria"
+    },
+    {
+      "id": "de_a1_verbvoc_017",
+      "prompt": "ver",
+      "answer": "sehen",
+      "explanation": "Formas siehst/sieht.",
+      "block": "percepción"
+    },
+    {
+      "id": "de_a1_verbvoc_018",
+      "prompt": "preguntar",
+      "answer": "fragen",
+      "explanation": "Verbo regular.",
+      "block": "comunicación"
+    },
+    {
+      "id": "de_a1_verbvoc_019",
+      "prompt": "responder",
+      "answer": "antworten",
+      "explanation": "Lleva e de apoyo.",
+      "block": "comunicación"
+    },
+    {
+      "id": "de_a1_verbvoc_020",
+      "prompt": "necesitar",
+      "answer": "brauchen",
+      "explanation": "Verbo regular.",
+      "block": "necesidad"
+    },
+    {
+      "id": "de_a1_verbvoc_021",
+      "prompt": "querer",
+      "answer": "wollen",
+      "explanation": "Verbo modal.",
+      "block": "deseo"
+    },
+    {
+      "id": "de_a1_verbvoc_022",
+      "prompt": "poder / saber hacer",
+      "answer": "können",
+      "explanation": "Verbo modal.",
+      "block": "capacidad"
+    },
+    {
+      "id": "de_a1_verbvoc_023",
+      "prompt": "tener que",
+      "answer": "müssen",
+      "explanation": "Verbo modal.",
+      "block": "obligación"
+    },
+    {
+      "id": "de_a1_verbvoc_024",
+      "prompt": "poder / tener permiso",
+      "answer": "dürfen",
+      "explanation": "Verbo modal.",
+      "block": "permiso"
+    },
+    {
+      "id": "de_a1_verbvoc_025",
+      "prompt": "quisiera",
+      "answer": "möchten",
+      "explanation": "Forma cortés.",
+      "block": "preferencia cortés"
+    }
+  ]
+}

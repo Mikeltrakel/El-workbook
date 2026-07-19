@@ -1,0 +1,216 @@
+{
+  "title": "Vocabulario: saludos y presentaciones",
+  "description": "Traduce saludos, despedidas y expresiones para presentarte.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "de_a1_voc1_001",
+      "prompt": "Hola",
+      "answer": "Hallo",
+      "explanation": "Saludo informal frecuente.",
+      "block": "saludos"
+    },
+    {
+      "id": "de_a1_voc1_002",
+      "prompt": "Buenos días",
+      "answer": "Guten Morgen",
+      "explanation": "Saludo de la mañana.",
+      "block": "saludos"
+    },
+    {
+      "id": "de_a1_voc1_003",
+      "prompt": "Buenas tardes / Buen día",
+      "answer": "Guten Tag",
+      "explanation": "Saludo neutral durante el día.",
+      "block": "saludos"
+    },
+    {
+      "id": "de_a1_voc1_004",
+      "prompt": "Buenas noches (al saludar)",
+      "answer": "Guten Abend",
+      "explanation": "Saludo de tarde o noche.",
+      "block": "saludos"
+    },
+    {
+      "id": "de_a1_voc1_005",
+      "prompt": "Adiós (formal)",
+      "answer": "Auf Wiedersehen",
+      "explanation": "Despedida formal.",
+      "block": "despedidas"
+    },
+    {
+      "id": "de_a1_voc1_006",
+      "prompt": "Adiós / Chao",
+      "answer": "Tschüss",
+      "explanation": "Despedida informal.",
+      "block": "despedidas"
+    },
+    {
+      "id": "de_a1_voc1_007",
+      "prompt": "Hasta pronto",
+      "answer": "Bis bald",
+      "explanation": "Despedida para un reencuentro próximo.",
+      "block": "despedidas"
+    },
+    {
+      "id": "de_a1_voc1_008",
+      "prompt": "Hasta mañana",
+      "answer": "Bis morgen",
+      "explanation": "Despedida hasta el día siguiente.",
+      "block": "despedidas"
+    },
+    {
+      "id": "de_a1_voc1_009",
+      "prompt": "Por favor",
+      "answer": "Bitte",
+      "explanation": "Fórmula de cortesía.",
+      "block": "cortesía"
+    },
+    {
+      "id": "de_a1_voc1_010",
+      "prompt": "Gracias",
+      "answer": "Danke",
+      "explanation": "Agradecimiento básico.",
+      "block": "cortesía"
+    },
+    {
+      "id": "de_a1_voc1_011",
+      "prompt": "Muchas gracias",
+      "answer": "Vielen Dank",
+      "explanation": "Agradecimiento enfático.",
+      "block": "cortesía"
+    },
+    {
+      "id": "de_a1_voc1_012",
+      "prompt": "De nada",
+      "answer": "Bitte schön",
+      "explanation": "Respuesta habitual a Danke.",
+      "block": "cortesía"
+    },
+    {
+      "id": "de_a1_voc1_013",
+      "prompt": "Me llamo Ana",
+      "answer": "Ich heiße Ana",
+      "explanation": "Se usa heißen para decir el nombre.",
+      "block": "presentación"
+    },
+    {
+      "id": "de_a1_voc1_014",
+      "prompt": "Soy Ana",
+      "answer": "Ich bin Ana",
+      "explanation": "Se usa sein para identificarse.",
+      "block": "presentación"
+    },
+    {
+      "id": "de_a1_voc1_015",
+      "prompt": "¿Cómo te llamas?",
+      "answer": "Wie heißt du?",
+      "explanation": "Pregunta informal por el nombre.",
+      "block": "presentación",
+      "accepted_answers": [
+        "Wie heißt du?",
+        "Wie heißt du"
+      ]
+    },
+    {
+      "id": "de_a1_voc1_016",
+      "prompt": "¿Cómo se llama usted?",
+      "answer": "Wie heißen Sie?",
+      "explanation": "Pregunta formal por el nombre.",
+      "block": "presentación",
+      "accepted_answers": [
+        "Wie heißen Sie?",
+        "Wie heißen Sie"
+      ]
+    },
+    {
+      "id": "de_a1_voc1_017",
+      "prompt": "Soy de España",
+      "answer": "Ich komme aus Spanien",
+      "explanation": "La procedencia se expresa con kommen aus.",
+      "block": "procedencia"
+    },
+    {
+      "id": "de_a1_voc1_018",
+      "prompt": "¿De dónde eres?",
+      "answer": "Woher kommst du?",
+      "explanation": "Woher pregunta por procedencia.",
+      "block": "procedencia",
+      "accepted_answers": [
+        "Woher kommst du?",
+        "Woher kommst du"
+      ]
+    },
+    {
+      "id": "de_a1_voc1_019",
+      "prompt": "Vivo en Madrid",
+      "answer": "Ich wohne in Madrid",
+      "explanation": "La residencia se expresa con wohnen in.",
+      "block": "residencia"
+    },
+    {
+      "id": "de_a1_voc1_020",
+      "prompt": "¿Dónde vives?",
+      "answer": "Wo wohnst du?",
+      "explanation": "Wo pregunta por lugar fijo.",
+      "block": "residencia",
+      "accepted_answers": [
+        "Wo wohnst du?",
+        "Wo wohnst du"
+      ]
+    },
+    {
+      "id": "de_a1_voc1_021",
+      "prompt": "Hablo español",
+      "answer": "Ich spreche Spanisch",
+      "explanation": "Los idiomas se escriben con mayúscula.",
+      "block": "idiomas"
+    },
+    {
+      "id": "de_a1_voc1_022",
+      "prompt": "Hablo un poco de alemán",
+      "answer": "Ich spreche ein bisschen Deutsch",
+      "explanation": "Ein bisschen significa un poco.",
+      "block": "idiomas"
+    },
+    {
+      "id": "de_a1_voc1_023",
+      "prompt": "¿Cómo estás?",
+      "answer": "Wie geht es dir?",
+      "explanation": "Pregunta informal por el estado.",
+      "block": "estado",
+      "accepted_answers": [
+        "Wie geht es dir?",
+        "Wie geht es dir"
+      ]
+    },
+    {
+      "id": "de_a1_voc1_024",
+      "prompt": "Estoy bien",
+      "answer": "Mir geht es gut",
+      "explanation": "Respuesta fija.",
+      "block": "estado"
+    },
+    {
+      "id": "de_a1_voc1_025",
+      "prompt": "Muy bien, gracias",
+      "answer": "Sehr gut, danke",
+      "explanation": "Respuesta breve.",
+      "block": "estado"
+    },
+    {
+      "id": "de_a1_voc1_026",
+      "prompt": "No muy bien",
+      "answer": "Nicht so gut",
+      "explanation": "Respuesta negativa suave.",
+      "block": "estado"
+    },
+    {
+      "id": "de_a1_voc1_027",
+      "prompt": "Encantado de conocerte",
+      "answer": "Freut mich",
+      "explanation": "Fórmula breve al conocer a alguien.",
+      "block": "encuentro"
+    }
+  ]
+}

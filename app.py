@@ -41,15 +41,40 @@ st.markdown(
         }
         .result-correct {
             border-left: 5px solid #2eaf62; background: rgba(46,175,98,.10);
-            padding: .75rem .9rem; border-radius: 8px; margin-top: .55rem;
+            padding: .55rem .7rem; border-radius: 8px; margin-top: .35rem;
         }
         .result-wrong {
             border-left: 5px solid #df4747; background: rgba(223,71,71,.10);
-            padding: .75rem .9rem; border-radius: 8px; margin-top: .55rem;
+            padding: .55rem .7rem; border-radius: 8px; margin-top: .35rem;
         }
         .result-revealed {
             border-left: 5px solid #d99a1b; background: rgba(217,154,27,.11);
-            padding: .75rem .9rem; border-radius: 8px; margin-top: .55rem;
+            padding: .55rem .7rem; border-radius: 8px; margin-top: .35rem;
+        }
+        .translation-block-title {
+            font-size: 1.08rem; font-weight: 750;
+            padding-bottom: .45rem;
+        }
+        .translation-table-source {
+            font-size: 1.02rem; font-weight: 650; padding-top: .35rem;
+            overflow-wrap: anywhere;
+        }
+        .translation-table-status {
+            min-height: 2.25rem; display: flex; align-items: center;
+        }
+        .translation-table-result {
+            margin-top: 0;
+            min-height: 2.45rem;
+            display: flex;
+            align-items: center;
+        }
+        .stButton button,
+        .stButton button * {
+            white-space: nowrap;
+        }
+        .translation-row-separator {
+            height: 1px; background: rgba(128,128,128,.18);
+            margin: .25rem 0 .4rem;
         }
         .st-key-bottom_actions {
             position: fixed; left: 0; right: 0; bottom: 0; z-index: 999;
@@ -213,6 +238,192 @@ def status_color(status: str):
     }.get(status, colors.white)
 
 
+def is_translation_table(exercise: dict[str, Any]) -> bool:
+    return exercise.get("layout") == "translation_table" or exercise.get("type") == "translation_table"
+
+
+def translation_table_blocks(
+    exercise: dict[str, Any], questions: list[dict[str, Any]]
+) -> list[tuple[str, list[dict[str, Any]]]]:
+    fallback_block = str(exercise.get("default_block", "Bloque 1"))
+    blocks: dict[str, list[dict[str, Any]]] = {}
+    for question in questions:
+        block_name = str(question.get("block") or fallback_block)
+        blocks.setdefault(block_name, []).append(question)
+    return list(blocks.items())
+
+
+def render_answer_input(question: dict[str, Any], key: str) -> None:
+    input_type = question.get("type", "text")
+    if input_type == "multiple_choice":
+        options = [""] + [str(option) for option in question.get("options", [])]
+        st.selectbox(
+            "Tu respuesta",
+            options,
+            key=key,
+            label_visibility="collapsed",
+            format_func=lambda value: "Selecciona una opcion" if value == "" else value,
+        )
+    elif question.get("multiline", False):
+        st.text_area(
+            "Tu respuesta",
+            key=key,
+            label_visibility="collapsed",
+            placeholder="Escribe tu respuesta...",
+            height=110,
+        )
+    else:
+        st.text_input(
+            "Tu respuesta",
+            key=key,
+            label_visibility="collapsed",
+            placeholder="Escribe tu respuesta...",
+            on_change=check_one,
+            args=(question,),
+        )
+
+
+def render_question_buttons(question: dict[str, Any], key_suffix: str, compact: bool = False) -> None:
+    check_column, reveal_column = st.columns(2)
+    with check_column:
+        st.button(
+            "Comprobar",
+            key=f"check_button__{key_suffix}",
+            on_click=check_one,
+            args=(question,),
+            use_container_width=True,
+        )
+    with reveal_column:
+        st.button(
+            "Ver respuesta" if not compact else "Ver",
+            key=f"reveal_button__{key_suffix}",
+            on_click=reveal_one,
+            args=(question,),
+            use_container_width=True,
+        )
+
+
+def render_question_result(question: dict[str, Any], status: str, compact: bool = False) -> None:
+    compact_class = " translation-table-result" if compact else ""
+    if status == "correct":
+        text = "Correcta." if compact else "<b>Correcta.</b>"
+        st.markdown(f'<div class="result-correct{compact_class}">{text}</div>', unsafe_allow_html=True)
+    elif status == "wrong":
+        text = "Incorrecta." if compact else "<b>Incorrecta.</b> Puedes intentarlo de nuevo o mostrar la solucion."
+        st.markdown(f'<div class="result-wrong{compact_class}">{text}</div>', unsafe_allow_html=True)
+    elif status == "revealed":
+        explanation = "" if compact else f'<br><br><b>Por que:</b> {question["explanation"]}'
+        st.markdown(
+            f'<div class="result-revealed{compact_class}"><b>Respuesta:</b> {question["answer"]}{explanation}</div>',
+            unsafe_allow_html=True,
+        )
+
+
+def render_standard_questions(questions: list[dict[str, Any]]) -> None:
+    for index, question in enumerate(questions, start=1):
+        qid = str(question["id"])
+        current_answer_key = answer_key(qid)
+        current_status = st.session_state.get(status_key(qid), "unanswered")
+
+        with st.container(border=True):
+            st.markdown(f'<div class="question-number">Pregunta {index}</div>', unsafe_allow_html=True)
+            st.markdown(f"### {question['prompt']}")
+            if question.get("help"):
+                st.caption(question["help"])
+
+            render_answer_input(question, current_answer_key)
+
+            check_column, reveal_column, _ = st.columns([1, 1, 3])
+            with check_column:
+                st.button(
+                    "Comprobar",
+                    key=f"check_button__{qid}",
+                    on_click=check_one,
+                    args=(question,),
+                    use_container_width=True,
+                )
+            with reveal_column:
+                st.button(
+                    "Ver respuesta",
+                    key=f"reveal_button__{qid}",
+                    on_click=reveal_one,
+                    args=(question,),
+                    use_container_width=True,
+                )
+
+            render_question_result(question, current_status)
+
+
+def render_translation_table(exercise: dict[str, Any], questions: list[dict[str, Any]]) -> None:
+    for block_name, block_questions in translation_table_blocks(exercise, questions):
+        with st.container(border=True):
+            st.markdown(f'<div class="translation-block-title">{block_name}</div>', unsafe_allow_html=True)
+            for index, question in enumerate(block_questions, start=1):
+                qid = str(question["id"])
+                current_answer_key = answer_key(qid)
+                current_status = st.session_state.get(status_key(qid), "unanswered")
+
+                source_column, answer_column, actions_column, status_column = st.columns([1.35, 1.65, 1.35, 1.15])
+                with source_column:
+                    st.markdown(
+                        f'<div class="translation-table-source">{question["prompt"]}</div>',
+                        unsafe_allow_html=True,
+                    )
+                    if question.get("help"):
+                        st.caption(question["help"])
+                with answer_column:
+                    render_answer_input(question, current_answer_key)
+                with actions_column:
+                    render_question_buttons(question, f"table__{qid}", compact=True)
+                with status_column:
+                    render_question_result(question, current_status, compact=True)
+
+                if index < len(block_questions):
+                    st.markdown('<div class="translation-row-separator"></div>', unsafe_allow_html=True)
+
+
+def render_progress_and_actions(
+    questions: list[dict[str, Any]],
+    exercise: dict[str, Any],
+    language_name: str,
+    level_name: str,
+    exercise_slug: str,
+) -> None:
+    correct_count = sum(st.session_state.get(status_key(str(q["id"]))) == "correct" for q in questions)
+    wrong_count = sum(st.session_state.get(status_key(str(q["id"]))) == "wrong" for q in questions)
+    revealed_count = sum(st.session_state.get(status_key(str(q["id"]))) == "revealed" for q in questions)
+    st.caption(
+        f"Progreso: {correct_count} correctas - {wrong_count} incorrectas - "
+        f"{revealed_count} soluciones mostradas - {len(questions)} preguntas"
+    )
+
+    pdf_data = build_pdf(exercise, language_name, level_name)
+    pdf_filename = f"{language_name}_{level_name}_{exercise_slug}.pdf"
+
+    with st.container(key="bottom_actions"):
+        column_check, column_reveal, column_reset, column_export = st.columns(4)
+        with column_check:
+            st.button(
+                "Comprobar respuestas",
+                on_click=check_all,
+                args=(questions,),
+                use_container_width=True,
+                type="primary",
+            )
+        with column_reveal:
+            st.button("Ver respuestas", on_click=reveal_all, args=(questions,), use_container_width=True)
+        with column_reset:
+            st.button("Resetear ejercicio", on_click=reset_all, args=(questions,), use_container_width=True)
+        with column_export:
+            st.download_button(
+                "Exportar documento",
+                data=pdf_data,
+                file_name=pdf_filename,
+                mime="application/pdf",
+                use_container_width=True,
+            )
+
+
 def build_pdf(exercise: dict[str, Any], language: str, level: str) -> bytes:
     buffer = io.BytesIO()
     document = SimpleDocTemplate(
@@ -263,6 +474,45 @@ def build_pdf(exercise: dict[str, Any], language: str, level: str) -> bytes:
             Paragraph(pdf_safe(exercise["description"]), styles["BodyText"]),
             Spacer(1, 5 * mm),
         ])
+
+    if is_translation_table(exercise):
+        for block_name, block_questions in translation_table_blocks(exercise, exercise["questions"]):
+            story.append(Paragraph(pdf_safe(block_name), styles["Question"]))
+            rows = [[
+                Paragraph("<b>Enunciado</b>", styles["Small"]),
+                Paragraph("<b>Tu respuesta</b>", styles["Small"]),
+                Paragraph("<b>Respuesta</b>", styles["Small"]),
+                Paragraph("<b>Resultado</b>", styles["Small"]),
+            ]]
+            for question in block_questions:
+                qid = str(question["id"])
+                user_answer = st.session_state.get(answer_key(qid), "")
+                status = st.session_state.get(status_key(qid), "unanswered")
+                rows.append([
+                    Paragraph(pdf_safe(question["prompt"]), styles["Small"]),
+                    Paragraph(pdf_safe(user_answer or "-"), styles["Small"]),
+                    Paragraph(pdf_safe(question["answer"]), styles["Small"]),
+                    Paragraph(pdf_safe(status_label(status)), styles["Small"]),
+                ])
+            table = Table(rows, colWidths=[42 * mm, 52 * mm, 52 * mm, 28 * mm], repeatRows=1)
+            table_style = [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#f2f2f2")),
+                ("GRID", (0, 0), (-1, -1), 0.45, colors.HexColor("#bbbbbb")),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 5),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 5),
+                ("TOPPADDING", (0, 0), (-1, -1), 4),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+            ]
+            for row_index, question in enumerate(block_questions, start=1):
+                status = st.session_state.get(status_key(str(question["id"])), "unanswered")
+                table_style.append(("BACKGROUND", (3, row_index), (3, row_index), status_color(status)))
+            table.setStyle(TableStyle(table_style))
+            story.extend([table, Spacer(1, 6 * mm)])
+
+        document.build(story)
+        buffer.seek(0)
+        return buffer.getvalue()
 
     for index, question in enumerate(exercise["questions"], start=1):
         qid = str(question["id"])
@@ -351,6 +601,17 @@ st.divider()
 st.subheader(exercise.get("title", pretty_name(selected_exercise_path.stem)))
 if exercise.get("description"):
     st.write(exercise["description"])
+
+if is_translation_table(exercise):
+    render_translation_table(exercise, questions)
+    render_progress_and_actions(
+        questions,
+        exercise,
+        pretty_name(selected_language_path.name),
+        selected_level_path.name.upper(),
+        selected_exercise_path.stem,
+    )
+    st.stop()
 
 for index, question in enumerate(questions, start=1):
     qid = str(question["id"])

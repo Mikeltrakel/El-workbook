@@ -1,0 +1,511 @@
+{
+  "title": "Formas verbales: irregulares y modales",
+  "description": "Completa las formas con cambios vocálicos o especiales.",
+  "layout": "translation_table",
+  "questions": [
+    {
+      "id": "irr_sprechen_01",
+      "prompt": "ich",
+      "answer": "spreche",
+      "explanation": "Cambio e→i. Para «ich»: «spreche».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_sprechen_02",
+      "prompt": "du",
+      "answer": "sprichst",
+      "explanation": "Cambio e→i. Para «du»: «sprichst».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_sprechen_03",
+      "prompt": "er / sie / es",
+      "answer": "spricht",
+      "explanation": "Cambio e→i. Para «er / sie / es»: «spricht».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_sprechen_04",
+      "prompt": "wir",
+      "answer": "sprechen",
+      "explanation": "Cambio e→i. Para «wir»: «sprechen».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_sprechen_05",
+      "prompt": "ihr",
+      "answer": "sprecht",
+      "explanation": "Cambio e→i. Para «ihr»: «sprecht».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_sprechen_06",
+      "prompt": "sie / Sie",
+      "answer": "sprechen",
+      "explanation": "Cambio e→i. Para «sie / Sie»: «sprechen».",
+      "block": "sprechen"
+    },
+    {
+      "id": "irr_lesen_01",
+      "prompt": "ich",
+      "answer": "lese",
+      "explanation": "Cambio e→ie. Para «ich»: «lese».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_lesen_02",
+      "prompt": "du",
+      "answer": "liest",
+      "explanation": "Cambio e→ie. Para «du»: «liest».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_lesen_03",
+      "prompt": "er / sie / es",
+      "answer": "liest",
+      "explanation": "Cambio e→ie. Para «er / sie / es»: «liest».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_lesen_04",
+      "prompt": "wir",
+      "answer": "lesen",
+      "explanation": "Cambio e→ie. Para «wir»: «lesen».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_lesen_05",
+      "prompt": "ihr",
+      "answer": "lest",
+      "explanation": "Cambio e→ie. Para «ihr»: «lest».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_lesen_06",
+      "prompt": "sie / Sie",
+      "answer": "lesen",
+      "explanation": "Cambio e→ie. Para «sie / Sie»: «lesen».",
+      "block": "lesen"
+    },
+    {
+      "id": "irr_fahren_01",
+      "prompt": "ich",
+      "answer": "fahre",
+      "explanation": "Cambio a→ä. Para «ich»: «fahre».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_fahren_02",
+      "prompt": "du",
+      "answer": "fährst",
+      "explanation": "Cambio a→ä. Para «du»: «fährst».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_fahren_03",
+      "prompt": "er / sie / es",
+      "answer": "fährt",
+      "explanation": "Cambio a→ä. Para «er / sie / es»: «fährt».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_fahren_04",
+      "prompt": "wir",
+      "answer": "fahren",
+      "explanation": "Cambio a→ä. Para «wir»: «fahren».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_fahren_05",
+      "prompt": "ihr",
+      "answer": "fahrt",
+      "explanation": "Cambio a→ä. Para «ihr»: «fahrt».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_fahren_06",
+      "prompt": "sie / Sie",
+      "answer": "fahren",
+      "explanation": "Cambio a→ä. Para «sie / Sie»: «fahren».",
+      "block": "fahren"
+    },
+    {
+      "id": "irr_essen_01",
+      "prompt": "ich",
+      "answer": "esse",
+      "explanation": "Formas isst. Para «ich»: «esse».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_essen_02",
+      "prompt": "du",
+      "answer": "isst",
+      "explanation": "Formas isst. Para «du»: «isst».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_essen_03",
+      "prompt": "er / sie / es",
+      "answer": "isst",
+      "explanation": "Formas isst. Para «er / sie / es»: «isst».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_essen_04",
+      "prompt": "wir",
+      "answer": "essen",
+      "explanation": "Formas isst. Para «wir»: «essen».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_essen_05",
+      "prompt": "ihr",
+      "answer": "esst",
+      "explanation": "Formas isst. Para «ihr»: «esst».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_essen_06",
+      "prompt": "sie / Sie",
+      "answer": "essen",
+      "explanation": "Formas isst. Para «sie / Sie»: «essen».",
+      "block": "essen"
+    },
+    {
+      "id": "irr_sehen_01",
+      "prompt": "ich",
+      "answer": "sehe",
+      "explanation": "Cambio e→ie. Para «ich»: «sehe».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_sehen_02",
+      "prompt": "du",
+      "answer": "siehst",
+      "explanation": "Cambio e→ie. Para «du»: «siehst».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_sehen_03",
+      "prompt": "er / sie / es",
+      "answer": "sieht",
+      "explanation": "Cambio e→ie. Para «er / sie / es»: «sieht».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_sehen_04",
+      "prompt": "wir",
+      "answer": "sehen",
+      "explanation": "Cambio e→ie. Para «wir»: «sehen».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_sehen_05",
+      "prompt": "ihr",
+      "answer": "seht",
+      "explanation": "Cambio e→ie. Para «ihr»: «seht».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_sehen_06",
+      "prompt": "sie / Sie",
+      "answer": "sehen",
+      "explanation": "Cambio e→ie. Para «sie / Sie»: «sehen».",
+      "block": "sehen"
+    },
+    {
+      "id": "irr_gehen_01",
+      "prompt": "ich",
+      "answer": "gehe",
+      "explanation": "Presente regular. Para «ich»: «gehe».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_gehen_02",
+      "prompt": "du",
+      "answer": "gehst",
+      "explanation": "Presente regular. Para «du»: «gehst».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_gehen_03",
+      "prompt": "er / sie / es",
+      "answer": "geht",
+      "explanation": "Presente regular. Para «er / sie / es»: «geht».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_gehen_04",
+      "prompt": "wir",
+      "answer": "gehen",
+      "explanation": "Presente regular. Para «wir»: «gehen».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_gehen_05",
+      "prompt": "ihr",
+      "answer": "geht",
+      "explanation": "Presente regular. Para «ihr»: «geht».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_gehen_06",
+      "prompt": "sie / Sie",
+      "answer": "gehen",
+      "explanation": "Presente regular. Para «sie / Sie»: «gehen».",
+      "block": "gehen"
+    },
+    {
+      "id": "irr_trinken_01",
+      "prompt": "ich",
+      "answer": "trinke",
+      "explanation": "Presente regular. Para «ich»: «trinke».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_trinken_02",
+      "prompt": "du",
+      "answer": "trinkst",
+      "explanation": "Presente regular. Para «du»: «trinkst».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_trinken_03",
+      "prompt": "er / sie / es",
+      "answer": "trinkt",
+      "explanation": "Presente regular. Para «er / sie / es»: «trinkt».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_trinken_04",
+      "prompt": "wir",
+      "answer": "trinken",
+      "explanation": "Presente regular. Para «wir»: «trinken».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_trinken_05",
+      "prompt": "ihr",
+      "answer": "trinkt",
+      "explanation": "Presente regular. Para «ihr»: «trinkt».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_trinken_06",
+      "prompt": "sie / Sie",
+      "answer": "trinken",
+      "explanation": "Presente regular. Para «sie / Sie»: «trinken».",
+      "block": "trinken"
+    },
+    {
+      "id": "irr_konnen_01",
+      "prompt": "ich",
+      "answer": "kann",
+      "explanation": "Modal irregular. Para «ich»: «kann».",
+      "block": "können"
+    },
+    {
+      "id": "irr_konnen_02",
+      "prompt": "du",
+      "answer": "kannst",
+      "explanation": "Modal irregular. Para «du»: «kannst».",
+      "block": "können"
+    },
+    {
+      "id": "irr_konnen_03",
+      "prompt": "er / sie / es",
+      "answer": "kann",
+      "explanation": "Modal irregular. Para «er / sie / es»: «kann».",
+      "block": "können"
+    },
+    {
+      "id": "irr_konnen_04",
+      "prompt": "wir",
+      "answer": "können",
+      "explanation": "Modal irregular. Para «wir»: «können».",
+      "block": "können"
+    },
+    {
+      "id": "irr_konnen_05",
+      "prompt": "ihr",
+      "answer": "könnt",
+      "explanation": "Modal irregular. Para «ihr»: «könnt».",
+      "block": "können"
+    },
+    {
+      "id": "irr_konnen_06",
+      "prompt": "sie / Sie",
+      "answer": "können",
+      "explanation": "Modal irregular. Para «sie / Sie»: «können».",
+      "block": "können"
+    },
+    {
+      "id": "irr_mussen_01",
+      "prompt": "ich",
+      "answer": "muss",
+      "explanation": "Modal irregular. Para «ich»: «muss».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_mussen_02",
+      "prompt": "du",
+      "answer": "musst",
+      "explanation": "Modal irregular. Para «du»: «musst».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_mussen_03",
+      "prompt": "er / sie / es",
+      "answer": "muss",
+      "explanation": "Modal irregular. Para «er / sie / es»: «muss».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_mussen_04",
+      "prompt": "wir",
+      "answer": "müssen",
+      "explanation": "Modal irregular. Para «wir»: «müssen».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_mussen_05",
+      "prompt": "ihr",
+      "answer": "müsst",
+      "explanation": "Modal irregular. Para «ihr»: «müsst».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_mussen_06",
+      "prompt": "sie / Sie",
+      "answer": "müssen",
+      "explanation": "Modal irregular. Para «sie / Sie»: «müssen».",
+      "block": "müssen"
+    },
+    {
+      "id": "irr_wollen_01",
+      "prompt": "ich",
+      "answer": "will",
+      "explanation": "Modal irregular. Para «ich»: «will».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_wollen_02",
+      "prompt": "du",
+      "answer": "willst",
+      "explanation": "Modal irregular. Para «du»: «willst».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_wollen_03",
+      "prompt": "er / sie / es",
+      "answer": "will",
+      "explanation": "Modal irregular. Para «er / sie / es»: «will».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_wollen_04",
+      "prompt": "wir",
+      "answer": "wollen",
+      "explanation": "Modal irregular. Para «wir»: «wollen».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_wollen_05",
+      "prompt": "ihr",
+      "answer": "wollt",
+      "explanation": "Modal irregular. Para «ihr»: «wollt».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_wollen_06",
+      "prompt": "sie / Sie",
+      "answer": "wollen",
+      "explanation": "Modal irregular. Para «sie / Sie»: «wollen».",
+      "block": "wollen"
+    },
+    {
+      "id": "irr_durfen_01",
+      "prompt": "ich",
+      "answer": "darf",
+      "explanation": "Modal irregular. Para «ich»: «darf».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_durfen_02",
+      "prompt": "du",
+      "answer": "darfst",
+      "explanation": "Modal irregular. Para «du»: «darfst».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_durfen_03",
+      "prompt": "er / sie / es",
+      "answer": "darf",
+      "explanation": "Modal irregular. Para «er / sie / es»: «darf».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_durfen_04",
+      "prompt": "wir",
+      "answer": "dürfen",
+      "explanation": "Modal irregular. Para «wir»: «dürfen».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_durfen_05",
+      "prompt": "ihr",
+      "answer": "dürft",
+      "explanation": "Modal irregular. Para «ihr»: «dürft».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_durfen_06",
+      "prompt": "sie / Sie",
+      "answer": "dürfen",
+      "explanation": "Modal irregular. Para «sie / Sie»: «dürfen».",
+      "block": "dürfen"
+    },
+    {
+      "id": "irr_mochten_01",
+      "prompt": "ich",
+      "answer": "möchte",
+      "explanation": "Forma cortés. Para «ich»: «möchte».",
+      "block": "möchten"
+    },
+    {
+      "id": "irr_mochten_02",
+      "prompt": "du",
+      "answer": "möchtest",
+      "explanation": "Forma cortés. Para «du»: «möchtest».",
+      "block": "möchten"
+    },
+    {
+      "id": "irr_mochten_03",
+      "prompt": "er / sie / es",
+      "answer": "möchte",
+      "explanation": "Forma cortés. Para «er / sie / es»: «möchte».",
+      "block": "möchten"
+    },
+    {
+      "id": "irr_mochten_04",
+      "prompt": "wir",
+      "answer": "möchten",
+      "explanation": "Forma cortés. Para «wir»: «möchten».",
+      "block": "möchten"
+    },
+    {
+      "id": "irr_mochten_05",
+      "prompt": "ihr",
+      "answer": "möchtet",
+      "explanation": "Forma cortés. Para «ihr»: «möchtet».",
+      "block": "möchten"
+    },
+    {
+      "id": "irr_mochten_06",
+      "prompt": "sie / Sie",
+      "answer": "möchten",
+      "explanation": "Forma cortés. Para «sie / Sie»: «möchten».",
+      "block": "möchten"
+    }
+  ]
+}
